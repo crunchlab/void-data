@@ -1,0 +1,92 @@
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Migrazioni Veneto Orientale</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
+       <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.1.min.js" integrity="sha384-YF85VygJKMVnHE+lLv2AM93Vbstr0yo2TbIu5v8se5Rq3UQAUmcuh4aaJwNlpKwa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.3.1.min.js" integrity="sha384-KKuas3gevv3PvrlkyCMzffFeaMq5we/a2QsP5AUoS3mJ0jmaCL7jirFJN3GoE/lM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+    <style>
+      .bg-void {
+        background-color: rgb(35, 31, 30);
+      }
+    h1,h2 {
+        text-align: center;
+        color: rgb(35, 31, 30);
+        font-family: "Work Sans";
+    }
+    p {
+        text-align:justify;
+        color: rgb(35, 31, 30);
+        font-family: "Work Sans";
+    }
+    </style>
+  </head>
+  
+    <body>
+<header>
+
+  <div class="navbar navbar-dark bg-void shadow-sm">
+    <div class="container ">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../images/logo-void-200.jpeg" alt="VOID">
+        </a>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="mx-auto" style="width: 50%">
+      <h1>Veneto Orientale</h1>
+      <h2>Migrazioni dal 2000 al 2020</h2>
+      <p>
+      Analisi dei movimenti migratori nel Veneto Orientale a partire dagli Open
+      Data forniti dai seguenti comuni:
+      <div class="mx-auto" style="width: 50%">
+        <ul>
+            <li><a href="https://dati.veneto.it/content/innovationlab-void-registro-apr-san-don%C3%A0-di-piave-dal-1-gennaio-2000-0">San Donà di Piave</a></li>
+            <li><a href="https://dati.veneto.it/content/innovationlab-void-registro-apr-musile-di-piave-dal-1-gennaio-2000">Musile di Piave</a></li>
+            <li><a href="https://dati.veneto.it/content/innovationlab-void-registro-delle-immigrazioni-nel-comune-di-noventa-di-piave-dal-01012000">Noventa di Piave</a></li>
+            <li><a href="https://dati.veneto.it/content/innovationlab-void-registro-delle-immigrazioni-nel-comune-di-jesolo-dal-1-gennaio-2000">Jesolo</a></li>
+            <li><a href="#">San Michele al Tagliamento</a></li>
+            <li><a href="#">Portogruaro</a></li>
+            <li><a href="#">San Stino di Livenza</a></li>
+        </ul>
+      </div>
+      </p>
+      <p>
+      Il grafico rappresenta gli spostamenti maggiori di 50 unit&agrave; nel
+      periodo considerato ed &egrave; interattivo.
+      I cerchi rappresentano i vari comuni del Veneto Orientale e la loro
+      dimensione &egrave; proporzionale al numero di migrazioni, quindi i
+      cerchi pi&ugrave; larghi rappresentano i comuni con pi&ugrave;
+      spostamenti, sia in ingresso che in uscita.
+      </p>
+      <p>
+      Cliccando sui cerchi (Comuni) vengono evidenziate le connessioni con i
+      comuni dai quali sono partiti i flussi verso il comune selezionato.
+      </p>
+      <p>
+      Ulteriori approfondimenti sono presenti nell'infografica scaricabile
+      premendo il tasto qui sotto.
+      </p>
+</div>
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+          <a href="InfograficaVOID_05.pdf" class="btn btn-secondary my-2">PDF INFOGRAFICA</a>
+        </p>
+      </div>
+    </div>
+  <section>
+
+    $BOKEH_DIV$
+    $BOKEH_SCRIPT$
+</main>
+    </body>
+
+</html>
+

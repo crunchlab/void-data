@@ -1,0 +1,145 @@
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>San Michele al Tagliamento - Affluenza Elettorale</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
+       <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.1.min.js" integrity="sha384-YF85VygJKMVnHE+lLv2AM93Vbstr0yo2TbIu5v8se5Rq3UQAUmcuh4aaJwNlpKwa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.3.1.min.js" integrity="sha384-KKuas3gevv3PvrlkyCMzffFeaMq5we/a2QsP5AUoS3mJ0jmaCL7jirFJN3GoE/lM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+    <style>
+      .bg-void {
+        background-color: rgb(35, 31, 30);
+      }
+    h1,h2,p {
+        text-align:center;
+        color: rgb(35, 31, 30);
+        font-family: "Work Sans";
+    }
+    </style>
+  </head>
+  
+    <body>
+<header>
+
+  <div class="navbar navbar-dark bg-void shadow-sm">
+    <div class="container ">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../images/logo-void-200.jpeg" alt="VOID">
+        </a>
+    </div>
+  </div>
+</header>
+
+<main>
+      <h1>San Michele al Tagliamento</h1>
+      <h2>Affluenza Elettorale dal 1946 al 2016</h2>
+      <p>
+      Il grafico riporta tutte le chiamate alle urne nel periodo indicando la
+      percentuale di votati in rapporto agli aventi diritto.
+      </p>
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+          <a href="InfograficaVOID_04.pdf" class="btn btn-secondary my-2">PDF INFOGRAFICA</a>
+          <a href="https://dati.veneto.it/content/innovationlab-void-consultazioni-elettorali-e-referendarie-nel-comune-di-san-michele-al" class="btn btn-secondary my-2">OPEN DATA</a>
+        </p>
+      </div>
+    </div>
+
+        
+<div class="bk-root" id="8863cec6-88e4-448b-a8cb-df09e1de7369" data-root-id="1114"></div>
+
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"f162c668-331d-448a-a79d-a9623ff9a582":{"defs":[],"roots":{"references":[{"attributes":{},"id":"1011","type":"LinearScale"},{"attributes":{},"id":"1110","type":"UnionRenderers"},{"attributes":{"data":{"x":[1956,1960,1964,1970,1975,1979,1980,1984,1985,1989,1990,1994,1995,1998,1999,2000,2003,2004,2005,2008,2009,2010,2011,2014,2015,2016],"y":{"__ndarray__":"cx+Z0qOOVkDSPSWMQCdWQFOUUJnvkFZAXD/5veYUV0BIqLAKyz1XQKy5mqu5mlVAZYI6SXEzV0Bd0oU7lG9VQFJPTW6wVVZAei9Lm1yuVUAa+8Ng4UhVQJ5MKIsnY1NAEXdXf+usUEB9ycFKxdZSQMTxp2vAb1BAjKjjEFY4UEAbtAatQWtRQOq4klGTaVFAOAyIfhmNT0AZTCOOd0JTQNy+ZjIuaUVAliYiq6ftTEBGXAiXz9tQQLwLzxOPmklA49/zTbE7R0CReaIzMnZNQA==","dtype":"float64","order":"little","shape":[26]}},"selected":{"id":"1087"},"selection_policy":{"id":"1088"}},"id":"1070","type":"ColumnDataSource"},{"attributes":{},"id":"1044","type":"BasicTickFormatter"},{"attributes":{"axis_label":"Anno","axis_label_text_font":"Work Sans","formatter":{"id":"1044"},"major_label_policy":{"id":"1046"},"ticker":{"id":"1014"}},"id":"1013","type":"LinearAxis"},{"attributes":{"label":{"value":"Referendum"},"renderers":[{"id":"1093"}]},"id":"1111","type":"LegendItem"},{"attributes":{},"id":"1046","type":"AllLabels"},{"attributes":{"active":[0,1,2,3],"js_property_callbacks":{"change:active":[{"id":"1112"}]},"labels":["Elezioni Politiche","Assemblea Costituente","Elezioni Amministrative","Referendum"]},"id":"1113","type":"CheckboxGroup"},{"attributes":{},"id":"1014","type":"BasicTicker"},{"attributes":{},"id":"1048","type":"Selection"},{"attributes":{"axis":{"id":"1013"},"ticker":null},"id":"1016","type":"Grid"},{"attributes":{"children":[{"id":"1002"},{"id":"1113"}]},"id":"1114","type":"Column"},{"attributes":{"fill_color":"rgb(44, 200, 77)","line_color":{"value":null},"radius":{"value":0.5},"x":{"field":"x"},"y":{"field":"y"}},"id":"1071","type":"Circle"},{"attributes":{},"id":"1049","type":"UnionRenderers"},{"attributes":{"axis_label":"Affluenza (%)","axis_label_text_font":"Work Sans","formatter":{"id":"1041"},"major_label_policy":{"id":"1043"},"ticker":{"id":"1018"}},"id":"1017","type":"LinearAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":"rgb(44, 200, 77)","line_alpha":{"value":0.1},"line_color":{"value":null},"radius":{"value":0.5},"x":{"field":"x"},"y":{"field":"y"}},"id":"1072","type":"Circle"},{"attributes":{"items":[{"id":"1051"},{"id":"1069"},{"id":"1089"},{"id":"1111"}],"label_text_font":"Work Sans","location":[0,0]},"id":"1050","type":"Legend"},{"attributes":{"source":{"id":"1070"}},"id":"1074","type":"CDSView"},{"attributes":{},"id":"1018","type":"BasicTicker"},{"attributes":{"label":{"value":"Elezioni Politiche"},"renderers":[{"id":"1038"}]},"id":"1051","type":"LegendItem"},{"attributes":{},"id":"1087","type":"Selection"},{"attributes":{"axis":{"id":"1017"},"dimension":1,"ticker":null},"id":"1020","type":"Grid"},{"attributes":{"data_source":{"id":"1070"},"glyph":{"id":"1071"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1072"},"view":{"id":"1074"}},"id":"1073","type":"GlyphRenderer"},{"attributes":{},"id":"1005","type":"DataRange1d"},{"attributes":{},"id":"1088","type":"UnionRenderers"},{"attributes":{"data":{"x":[1946],"y":{"__ndarray__":"9Yi+fiOMVkA=","dtype":"float64","order":"little","shape":[1]}},"selected":{"id":"1067"},"selection_policy":{"id":"1068"}},"id":"1052","type":"ColumnDataSource"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1027","type":"BoxAnnotation"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":"rgb(246, 183, 0)","line_alpha":{"value":0.1},"line_color":{"value":null},"radius":{"value":0.5},"x":{"field":"x"},"y":{"field":"y"}},"id":"1037","type":"Circle"},{"attributes":{"label":{"value":"Elezioni Amministrative"},"renderers":[{"id":"1073"}]},"id":"1089","type":"LegendItem"},{"attributes":{"args":{"renderers":[{"id":"1038"},{"id":"1055"},{"id":"1073"},{"id":"1093"}]},"code":"\\n    renderers.forEach(r =&gt; {\\n        r.visible = false;\\n    });\\n    this.active.forEach(a =&gt; {\\n        renderers[a].visible = true;\\n    });\\n    "},"id":"1112","type":"CustomJS"},{"attributes":{},"id":"1009","type":"LinearScale"},{"attributes":{},"id":"1021","type":"PanTool"},{"attributes":{"data":{"x":[1948,1953,1958,1963,1968,1972,1976,1979,1983,1987,1992,1994,1996,2001,2006,2008,2013],"y":{"__ndarray__":"CAhWZYeEV0C6NCv0IrBXQF5/IIZ9cldAgk1erhReV0DMsgutTFdXQB8es9fCS1dAyOxamqXMV0BMywY7CIBWQNThTL97P1ZAC9u7wVcoVkC9R3XiZLFVQPR3S8TyUVdAsvJLCSMoVEB0IIjpx5xTQDkV8q4wklVA25iej4pyVUDXIyxNdodTQA==","dtype":"float64","order":"little","shape":[17]}},"selected":{"id":"1048"},"selection_policy":{"id":"1049"}},"id":"1035","type":"ColumnDataSource"},{"attributes":{"data":{"x":[1974,1978,1981,1993,1997,2003,2005,2006,2009,2011,2016],"y":{"__ndarray__":"6mJrL/+2VkDwK0jPZldWQAo6BTBpJlVAyQQYZEjmWEA+JCw/TgFAQKooezqFCDJAZZ7FOtfLPEAlyJTC16dMQDBCLwYdYz5A1hapSK+LSEBmuAa+vLk/QA==","dtype":"float64","order":"little","shape":[11]}},"selected":{"id":"1109"},"selection_policy":{"id":"1110"}},"id":"1090","type":"ColumnDataSource"},{"attributes":{},"id":"1022","type":"WheelZoomTool"},{"attributes":{"fill_color":"rgb(229, 205, 230)","line_color":{"value":null},"radius":{"value":0.5},"x":{"field":"x"},"y":{"field":"y"}},"id":"1053","type":"Circle"},{"attributes":{"overlay":{"id":"1027"}},"id":"1023","type":"BoxZoomTool"},{"attributes":{},"id":"1109","type":"Selection"},{"attributes":{"fill_color":"rgb(246, 183, 0)","line_color":{"value":null},"radius":{"value":0.5},"x":{"field":"x"},"y":{"field":"y"}},"id":"1036","type":"Circle"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":"rgb(229, 205, 230)","line_alpha":{"value":0.1},"line_color":{"value":null},"radius":{"value":0.5},"x":{"field":"x"},"y":{"field":"y"}},"id":"1054","type":"Circle"},{"attributes":{},"id":"1024","type":"SaveTool"},{"attributes":{"source":{"id":"1052"}},"id":"1056","type":"CDSView"},{"attributes":{"below":[{"id":"1013"}],"center":[{"id":"1016"},{"id":"1020"},{"id":"1050"}],"height":400,"left":[{"id":"1017"}],"renderers":[{"id":"1038"},{"id":"1055"},{"id":"1073"},{"id":"1093"}],"title":{"id":"1003"},"toolbar":{"id":"1028"},"width":800,"x_range":{"id":"1005"},"x_scale":{"id":"1009"},"y_range":{"id":"1007"},"y_scale":{"id":"1011"}},"id":"1002","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1025","type":"ResetTool"},{"attributes":{},"id":"1067","type":"Selection"},{"attributes":{},"id":"1007","type":"DataRange1d"},{"attributes":{"data_source":{"id":"1052"},"glyph":{"id":"1053"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1054"},"view":{"id":"1056"}},"id":"1055","type":"GlyphRenderer"},{"attributes":{"source":{"id":"1035"}},"id":"1039","type":"CDSView"},{"attributes":{"fill_color":"rgb(238, 56, 49)","line_color":{"value":null},"radius":{"value":0.5},"x":{"field":"x"},"y":{"field":"y"}},"id":"1091","type":"Circle"},{"attributes":{},"id":"1026","type":"HelpTool"},{"attributes":{},"id":"1068","type":"UnionRenderers"},{"attributes":{"data_source":{"id":"1035"},"glyph":{"id":"1036"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1037"},"view":{"id":"1039"}},"id":"1038","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":"rgb(238, 56, 49)","line_alpha":{"value":0.1},"line_color":{"value":null},"radius":{"value":0.5},"x":{"field":"x"},"y":{"field":"y"}},"id":"1092","type":"Circle"},{"attributes":{"label":{"value":"Assemblea Costituente"},"renderers":[{"id":"1055"}]},"id":"1069","type":"LegendItem"},{"attributes":{"align":"center","text":"AFFLUENZA","text_font":"Work Sans","text_font_size":"21px"},"id":"1003","type":"Title"},{"attributes":{"source":{"id":"1090"}},"id":"1094","type":"CDSView"},{"attributes":{"active_multi":null,"tools":[{"id":"1021"},{"id":"1022"},{"id":"1023"},{"id":"1024"},{"id":"1025"},{"id":"1026"}]},"id":"1028","type":"Toolbar"},{"attributes":{},"id":"1041","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"1090"},"glyph":{"id":"1091"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1092"},"view":{"id":"1094"}},"id":"1093","type":"GlyphRenderer"},{"attributes":{},"id":"1043","type":"AllLabels"}],"root_ids":["1114"]},"title":"Bokeh Application","version":"2.3.1"}}';
+                var render_items = [{"docid":"f162c668-331d-448a-a79d-a9623ff9a582","root_ids":["1114"],"roots":{"1114":"8863cec6-88e4-448b-a8cb-df09e1de7369"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+
+      <h2>Rapporto tra Votanti Maschi e Femmine</h2>
+      <p>
+Confrontando la percentuale di votanti di sesso maschile e di sesso femminile,
+si nota una sostanziale equità di partecipazione alle diverse consultazioni. Si
+può notare, in generale, un leggero interesse dell'elettorato femminile per le
+elezioni amministrative.
+      </p>
+
+        
+<div class="bk-root" id="87587f8c-f32d-4180-b960-b5c3adab335c" data-root-id="1297"></div>
+
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"141f1d1a-6838-4023-9a88-6f885f8fd29f":{"defs":[],"roots":{"references":[{"attributes":{"data":{"x":{"__ndarray__":"AAAAAAAA+H8=","dtype":"float64","order":"little","shape":[1]},"y":{"__ndarray__":"AAAAAAAA+H8=","dtype":"float64","order":"little","shape":[1]}},"selected":{"id":"1244"},"selection_policy":{"id":"1245"}},"id":"1229","type":"ColumnDataSource"},{"attributes":{"button_type":"danger","icon":null,"js_event_callbacks":{"button_click":[{"id":"1292"}]},"label":"RIDUCI"},"id":"1294","type":"Button"},{"attributes":{},"id":"1198","type":"PanTool"},{"attributes":{"children":[{"id":"1294"},{"id":"1293"}]},"id":"1295","type":"Column"},{"attributes":{},"id":"1199","type":"WheelZoomTool"},{"attributes":{"children":[{"id":"1290"},{"id":"1295"}]},"id":"1296","type":"Row"},{"attributes":{"axis":{"id":"1194"},"dimension":1,"ticker":null},"id":"1197","type":"Grid"},{"attributes":{},"id":"1202","type":"ResetTool"},{"attributes":{"children":[{"id":"1179"},{"id":"1296"}]},"id":"1297","type":"Column"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":"rgb(229, 205, 230)","line_color":{"value":null},"radius":{"value":0.05},"x":{"field":"x"},"y":{"field":"y"}},"id":"1230","type":"Circle"},{"attributes":{},"id":"1201","type":"SaveTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":"rgb(229, 205, 230)","line_alpha":{"value":0.1},"line_color":{"value":null},"radius":{"value":0.05},"x":{"field":"x"},"y":{"field":"y"}},"id":"1231","type":"Circle"},{"attributes":{"source":{"id":"1229"}},"id":"1233","type":"CDSView"},{"attributes":{},"id":"1203","type":"HelpTool"},{"attributes":{"overlay":{"id":"1204"}},"id":"1200","type":"BoxZoomTool"},{"attributes":{},"id":"1244","type":"Selection"},{"attributes":{"data_source":{"id":"1229"},"glyph":{"id":"1230"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1231"},"view":{"id":"1233"}},"id":"1232","type":"GlyphRenderer"},{"attributes":{},"id":"1245","type":"UnionRenderers"},{"attributes":{"button_type":"success","icon":null,"js_event_callbacks":{"button_click":[{"id":"1291"}]},"label":"ALLARGA"},"id":"1293","type":"Button"},{"attributes":{"label":{"value":"Assemblea Costituente"},"renderers":[{"id":"1232"}]},"id":"1246","type":"LegendItem"},{"attributes":{},"id":"1195","type":"BasicTicker"},{"attributes":{"data":{"x":{"__ndarray__":"zwQMHst7SED1oSz8g3ZIQLp3kqWOkEhAkqZXxbzFSEDy1uO1gRZJQMoIOoU4EElAJ5PJZDIZSUCI/uKlQu1IQJHB+Ric50hAwbCNAInwSEDeM4neM0lJQH+5XnKBzkhAR2uxm3CwSEBKRK+HSRZJQAHbXXHn0EhAQ4MhNBhCSUB/aXucj7RIQH7ZB5YWT0pA54rze7sJSUCtkNlIEFNJQOm0qSDO60hA/WbCZW18SUCyZcuWLdtJQP4jZp4NBElA","dtype":"float64","order":"little","shape":[24]},"y":{"__ndarray__":"Mfvz4TSESUALXtMDfIlJQEiIbVpxb0lAblmoOkM6SUAOKRxKfulIQDb3xXrH70hA22w2m83mSEB4AR1avRJJQNAUAk0hCElAP09y/3YPSUAizHYhzLZIQIFGoY1+MUlAt5ROZI9PSUC2u1B4tulIQAIloo4YL0lAv3zey+e9SECEloRjcEtJQIIm+GnpsEdAGXUMhET2SEBTbya376xIQBdLVt8xFElAA5k9mpKDSEBNmjRp0iRIQALcmWHy+0hA","dtype":"float64","order":"little","shape":[24]}},"selected":{"id":"1264"},"selection_policy":{"id":"1265"}},"id":"1247","type":"ColumnDataSource"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1204","type":"BoxAnnotation"},{"attributes":{"active_multi":null,"tools":[{"id":"1198"},{"id":"1199"},{"id":"1200"},{"id":"1201"},{"id":"1202"},{"id":"1203"}]},"id":"1205","type":"Toolbar"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":"rgb(44, 200, 77)","line_color":{"value":null},"radius":{"value":0.05},"x":{"field":"x"},"y":{"field":"y"}},"id":"1248","type":"Circle"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":"rgb(44, 200, 77)","line_alpha":{"value":0.1},"line_color":{"value":null},"radius":{"value":0.05},"x":{"field":"x"},"y":{"field":"y"}},"id":"1249","type":"Circle"},{"attributes":{"source":{"id":"1247"}},"id":"1251","type":"CDSView"},{"attributes":{},"id":"1264","type":"Selection"},{"attributes":{"data_source":{"id":"1247"},"glyph":{"id":"1248"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1249"},"view":{"id":"1251"}},"id":"1250","type":"GlyphRenderer"},{"attributes":{},"id":"1265","type":"UnionRenderers"},{"attributes":{"label":{"value":"Elezioni Amministrative"},"renderers":[{"id":"1250"}]},"id":"1266","type":"LegendItem"},{"attributes":{"data_source":{"id":"1212"},"glyph":{"id":"1213"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1214"},"view":{"id":"1216"}},"id":"1215","type":"GlyphRenderer"},{"attributes":{"data":{"x":{"__ndarray__":"hDz8odiySED3eabkqsZIQIQOBCNkRUlAp7Zlwj4mSUCZ1MnLP9lIQJHTmbGJA0lA69i8FyDSSEDQ/sMpvVBIQI/VNa2XhUxA8PnydRV9RUBp6n5Ek1JJQNeTePs5rkhA8OJ6E0ikSECoIYVPFGtIQG6QqUcjYEhAJ4zqNDnISEAnoyM9a8hIQEf0lnPfvEhAAnQq/1vwSEAxP0Awk4RIQJWfCQZbpkhA5/tmJz2oSEAeOthcMrlIQIS6Dno6EklASfNK+lgWSUA=","dtype":"float64","order":"little","shape":[25]},"y":{"__ndarray__":"byQ82epQSUC+1+4W80NJQHvx+9ybukhAW0maPcHZSEBnKzY0wCZJQG8sZk52/EhAFCdD6N8tSUDh4Y6vISVJQCWtjWq6fk1AV/HKAKIbRkAykI6HaQ1KQClshwTGUUlAiq2bWRhaSUBV3nqw65RJQJJvVrjcn0lA2HMVy8Y3SUDcXNzClDdJQLgLaYwgQ0lA/YvVAKQPSUAocZn1/U5JQGtg9vmkWUlAGQSZ2MJXSUDhxSejzUZJQHxF8YXF7UhAuQy1BafpSEA=","dtype":"float64","order":"little","shape":[25]}},"selected":{"id":"1225"},"selection_policy":{"id":"1226"}},"id":"1212","type":"ColumnDataSource"},{"attributes":{"data":{"x":{"__ndarray__":"88lC+p8USUDgEIrqjr1IQAlA22xGZkhAc7lcLpdLSUAzUZYmylJJQMPoBJaVRElATb2+FHBWSUBm2jlYs0RJQGp14RPWUklAhZdlYF5PSUB0IeEg/YtJQAL0U7QRhElAzlftnhgNSUDw1wHbbj5IQJVziv1pQUhAmDDV22VESEDC9ot3Bh5JQFr6FxpRJ0pAWr4QEmspSkDAIduClCpKQKBPUw0/jkhAh9E2somLSECq+9VOlotIQG0Nzz7hiEhAKpvu0UJYSUA=","dtype":"float64","order":"little","shape":[25]},"y":{"__ndarray__":"Dja9BWDrSEAg73UVcUJJQPa/JJO5mUlAjUaj0Wi0SEDNrmnZNa1IQD8X+2lqu0hAs0JB64+pSECaJcanTLtIQJaKHuwprUhAeWian6GwSECM3h7fAnRIQP4LrEvue0hAMqgSYefySEAQKP4kkcFJQGuMdQKWvklAaM8qJJq7SUA+CXSI+eFIQKYF6OWu2EdAp0Hv7ZTWR0BA3iR9a9VHQGGwrPLAcUlAeS7JTXZ0SUBUBCqxaXRJQJTyMMEed0lA1mQRLr2nSEA=","dtype":"float64","order":"little","shape":[25]}},"selected":{"id":"1286"},"selection_policy":{"id":"1287"}},"id":"1267","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":"rgb(246, 183, 0)","line_color":{"value":null},"radius":{"value":0.05},"x":{"field":"x"},"y":{"field":"y"}},"id":"1213","type":"Circle"},{"attributes":{},"id":"1220","type":"AllLabels"},{"attributes":{"args":{"renderers":[{"id":"1215"},{"id":"1232"},{"id":"1250"},{"id":"1270"}]},"code":"\\n    renderers.forEach(r =&gt; {\\n        r.visible = false;\\n    });\\n    this.active.forEach(a =&gt; {\\n        renderers[a].visible = true;\\n    });\\n    "},"id":"1289","type":"CustomJS"},{"attributes":{"below":[{"id":"1190"}],"center":[{"id":"1193"},{"id":"1197"},{"id":"1227"}],"height":400,"left":[{"id":"1194"}],"renderers":[{"id":"1215"},{"id":"1232"},{"id":"1250"},{"id":"1270"}],"title":{"id":"1180"},"toolbar":{"id":"1205"},"width":800,"x_range":{"id":"1182"},"x_scale":{"id":"1186"},"y_range":{"id":"1184"},"y_scale":{"id":"1188"}},"id":"1179","subtype":"Figure","type":"Plot"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":"rgb(238, 56, 49)","line_color":{"value":null},"radius":{"value":0.05},"x":{"field":"x"},"y":{"field":"y"}},"id":"1268","type":"Circle"},{"attributes":{},"id":"1191","type":"BasicTicker"},{"attributes":{"label":{"value":"Elezioni Politiche"},"renderers":[{"id":"1215"}]},"id":"1228","type":"LegendItem"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":"rgb(238, 56, 49)","line_alpha":{"value":0.1},"line_color":{"value":null},"radius":{"value":0.05},"x":{"field":"x"},"y":{"field":"y"}},"id":"1269","type":"Circle"},{"attributes":{"source":{"id":"1267"}},"id":"1271","type":"CDSView"},{"attributes":{"axis_label":"% Votanti Femmine","axis_label_text_font":"Work Sans","formatter":{"id":"1218"},"major_label_policy":{"id":"1220"},"ticker":{"id":"1195"}},"id":"1194","type":"LinearAxis"},{"attributes":{},"id":"1286","type":"Selection"},{"attributes":{"align":"center","text":"TIPOLOGIA DI ELETTORATO","text_font":"Work Sans","text_font_size":"21px"},"id":"1180","type":"Title"},{"attributes":{"data_source":{"id":"1267"},"glyph":{"id":"1268"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1269"},"view":{"id":"1271"}},"id":"1270","type":"GlyphRenderer"},{"attributes":{},"id":"1186","type":"LinearScale"},{"attributes":{},"id":"1218","type":"BasicTickFormatter"},{"attributes":{"source":{"id":"1212"}},"id":"1216","type":"CDSView"},{"attributes":{},"id":"1287","type":"UnionRenderers"},{"attributes":{},"id":"1184","type":"DataRange1d"},{"attributes":{"label":{"value":"Referendum"},"renderers":[{"id":"1270"}]},"id":"1288","type":"LegendItem"},{"attributes":{},"id":"1182","type":"DataRange1d"},{"attributes":{"active":[0,1,2,3],"js_property_callbacks":{"change:active":[{"id":"1289"}]},"labels":["Elezioni Politiche","Assemblea Costituente","Elezioni Amministrative","Referendum"]},"id":"1290","type":"CheckboxGroup"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":"rgb(246, 183, 0)","line_alpha":{"value":0.1},"line_color":{"value":null},"radius":{"value":0.05},"x":{"field":"x"},"y":{"field":"y"}},"id":"1214","type":"Circle"},{"attributes":{"axis_label":"% Votanti Maschi","axis_label_text_font":"Work Sans","formatter":{"id":"1221"},"major_label_policy":{"id":"1223"},"ticker":{"id":"1191"}},"id":"1190","type":"LinearAxis"},{"attributes":{},"id":"1221","type":"BasicTickFormatter"},{"attributes":{},"id":"1223","type":"AllLabels"},{"attributes":{"args":{"delta":0.01,"renderers":[{"id":"1215"},{"id":"1232"},{"id":"1250"},{"id":"1270"}]},"code":"\\n    renderers.forEach(r =&gt; {\\n        r.glyph.radius = Math.max(0.01, r.glyph.radius.value + delta);\\n    });\\n    "},"id":"1291","type":"CustomJS"},{"attributes":{},"id":"1188","type":"LinearScale"},{"attributes":{"items":[{"id":"1228"},{"id":"1246"},{"id":"1266"},{"id":"1288"}],"label_text_font":"Work Sans","location":[0,0]},"id":"1227","type":"Legend"},{"attributes":{},"id":"1225","type":"Selection"},{"attributes":{"args":{"delta":-0.01,"renderers":[{"id":"1215"},{"id":"1232"},{"id":"1250"},{"id":"1270"}]},"code":"\\n    renderers.forEach(r =&gt; {\\n        r.glyph.radius = Math.max(0.01, r.glyph.radius.value + delta);\\n    });\\n    "},"id":"1292","type":"CustomJS"},{"attributes":{"axis":{"id":"1190"},"ticker":null},"id":"1193","type":"Grid"},{"attributes":{},"id":"1226","type":"UnionRenderers"}],"root_ids":["1297"]},"title":"Bokeh Application","version":"2.3.1"}}';
+                var render_items = [{"docid":"141f1d1a-6838-4023-9a88-6f885f8fd29f","root_ids":["1297"],"roots":{"1297":"87587f8c-f32d-4180-b960-b5c3adab335c"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+</main>
+    </body>
+
+</html>
+

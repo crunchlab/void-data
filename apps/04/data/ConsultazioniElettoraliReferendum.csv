@@ -1,0 +1,114 @@
+Anno;Consultazione;Nome_Consultazione;Data;Totale_Elettori;Elettori_maschi;Elettori_femmine;Totale_votanti;Votanti_maschi;Votanti_femmine;Voti_validi;Schede_nulle;Schede_bianche;Voti_Contestati_Non_Assegnati
+1946;Assemblea Costituente;Assemblea Costituente;02/06/1946;6116;;;5516;;;4895;368;253;0
+1948;Elezioni Politiche;Camera dei Deputati;18/04/1948;6548;;;6104;;;5880;178;46;0
+1948;Elezioni Politiche;Senato della Repubblica;18/04/1948;5593;;;5309;;;4937;241;131;0
+1953;Elezioni Politiche;Camera dei Deputati;07/06/1953;7075;;;6668;;;6198;470;0;0
+1953;Elezioni Politiche;Senato della Repubblica;07/06/1953;6072;;;5784;;;5435;180;169;0
+1956;Elezioni Amministrative;Comunali;27/05/1956;7082;3596;3486;6390;3129;3261;6124;177;89;0
+1958;Elezioni Politiche;Camera dei Deputati;25/05/1958;7310;3704;3606;6802;3360;3444;6473;190;139;0
+1958;Elezioni Politiche;Senato della Repubblica;25/05/1958;6377;3212;3165;6028;2987;3046;5697;181;150;0
+1960;Elezioni Amministrative;Comunali;06/11/1960;7261;3702;3569;6424;3143;3281;6155;121;148;0
+1960;Elezioni Amministrative;Provinciali;06/11/1960;7247;3690;3557;6432;3160;3272;6082;153;195;2
+1963;Elezioni Politiche;Camera dei Deputati;28/04/1963;7178;;;6661;;;6418;117;126;0
+1963;Elezioni Politiche;Senato della Repubblica;28/04/1963;6368;3227;3141;5995;3030;2965;5734;105;156;0
+1964;Elezioni Amministrative;Provinciali;22/11/1964;7180;3646;3534;6481;3211;3270;6151;129;185;16
+1968;Elezioni Politiche;Camera dei Deputati;19/05/1968;7363;3719;3644;6861;3451;3410;6578;145;138;3
+1968;Elezioni Politiche;Senato della Repubblica;19/05/1968;6709;3349;3360;6276;3119;3157;5949;89;238;1
+1970;Elezioni Amministrative;Provinciali;07/06/1970;7764;3869;3795;7109;3567;3542;6671;139;299;0
+1970;Elezioni Amministrative;Comunali;07/06/1970;7666;3869;3797;7102;3560;3542;6782;138;182;0
+1970;Elezioni Amministrative;Regionali;07/06/1970;7666;3869;3797;7112;3570;3542;6735;132;245;1
+1972;Elezioni Politiche;Camera dei Deputati;07/05/1972;7766;3913;3853;7236;3620;3616;6929;138;169;0
+1972;Elezioni Politiche;Senato della Repubblica;07/05/1972;7036;3514;3517;6557;3255;3302;6245;110;202;0
+1974;Referendum Popolare;Referendum n.1 ;12/05/1974;7855;3851;3904;7137;3580;3557;6939;67;131;0
+1975;Elezioni Amministrative;Comunali;15/06/1975;8458;4227;4231;7855;3916;3939;7562;91;201;1
+1975;Elezioni Amministrative;Provinciali;15/06/1975;8458;4227;4231;7872;3921;3941;7497;102;261;2
+1975;Elezioni Amministrative;Regionali;15/06/1975;8459;4227;4231;7863;3922;3941;7541;97;225;0
+1976;Elezioni Politiche;Camera dei Deputati;20/06/1976;8476;4225;4251;8063;;;7815;111;137;0
+1976;Elezioni Politiche;Senato della Repubblica;20/06/1976;7375;3658;3717;7026;;;6813;86;127;0
+1978;Referendum Popolare;Referendum n.1 ;11/06/1978;8623;4267;4356;7706;3813;3893;7243;463;264;0
+1978;Referendum Popolare;Referendum n.2;11/06/1978;8623;4267;4356;7706;3813;3893;7256;450;260;0
+1979;Elezioni Politiche;Camera dei Deputati;03/06/1979;9099;4525;4574;8187;;;7864;141;182;0
+1979;Elezioni Politiche;Senato della Repubblica;03/06/1979;7889;3905;3984;7102;;;6828;112;274;0
+1979;Elezioni Amministrative;Europee;10/06/1979;9100;;;7864;;;7590;178;96;0
+1980;Elezioni Amministrative;Provinciali;08/06/1980;8369;;;7877;;;7877;173;309;0
+1980;Elezioni Amministrative;Comunali;08/06/1980;8350;;;7877;;;8610;178;195;0
+1980;Elezioni Amministrative;Regionali;08/06/1980;9308;;;8373;;;7935;183;255;0
+1981;Referendum Popolare;Referendum n.1 ;17/05/1981;9404;4650;4754;7956;;;7225;239;492;0
+1981;Referendum Popolare;Referendum n.2;17/05/1981;9404;4650;4754;7956;;;7273;220;462;0
+1981;Referendum Popolare;Referendum n.3;17/05/1981;9404;4650;4754;7956;;;7272;221;463;0
+1981;Referendum Popolare;Referendum n.4;17/05/1981;9404;4650;4754;7955;;;7201;244;510;0
+1981;Referendum Popolare;Referendum n.5;17/05/1981;9404;4650;4754;7956;;;7277;281;398;0
+1983;Elezioni Politiche;Camera dei Deputati;26/06/1983;9705;4791;4895;8618;4191;4334;8104;293;221;0
+1983;Elezioni Politiche;Senato della Repubblica;26/06/1983;8238;4791;4895;7347;4191;4334;6914;250;433;0
+1984;Elezioni Amministrative;Europee;17/06/1984;9806;;;8408;;;7976;282;150;0
+1985;Elezioni Amministrative;Comunali;16/07/1985;9937;;;8870;;;8441;214;215;0
+1985;Elezioni Amministrative;Regionali;12/05/1985;9939;;;8887;;;8386;225;276;0
+1987;Elezioni Politiche;Camera dei Deputati;14/06/1987;10207;4446;4703;9042;3886;3998;8610;250;182;0
+1987;Elezioni Politiche;Senato della Repubblica;14/06/1987;8653;4446;4703;7673;3886;3998;7312;179;182;0
+1989;Elezioni Amministrative;Comunali;16/07/1989;10419;;;8870;;;8423;253;194;0
+1989;Elezioni Amministrative;Europee;18/06/1989;9928;;;8768;;;8224;290;254;0
+1990;Elezioni Amministrative;Regionali;06/05/1990;10450;;;8897;;;8272;337;288;0
+1992;Elezioni Politiche;Camera dei Deputati;05/04/1992;10482;5158;5426;9157;4520;4637;8709;222;226;0
+1992;Elezioni Politiche;Senato della Repubblica;05/04/1992;9149;4446;4703;7885;3886;3998;7515;159;211;0
+1993;Referendum Popolare;Referendum n. 1;18/04/1993;10701;5224;5477;10658;5201;5457;8231;106;269;0
+1993;Referendum Popolare;Referendum n. 2;18/04/1993;10701;5224;5477;10658;5201;5457;8221;139;251;0
+1993;Referendum Popolare;Referendum n. 3;18/04/1993;10701;5224;5477;10658;5201;5457;8258;109;241;0
+1993;Referendum Popolare;Referendum n. 4;18/04/1993;10701;5224;5477;10658;5201;5457;8236;110;259;0
+1993;Referendum Popolare;Referendum n. 5;18/04/1993;10701;5224;5477;10658;5201;5457;8234;117;256;0
+1993;Referendum Popolare;Referendum n. 6;18/04/1993;10701;5224;5477;10658;5201;5457;8288;112;217;0
+1993;Referendum Popolare;Referendum n. 7;18/04/1993;10701;5224;5477;10658;5201;5457;8249;114;244;0
+1993;Referendum Popolare;Referendum n. 8;18/04/1993;10701;5224;5477;10658;5201;5457;8248;119;238;0
+1994;Elezioni Amministrative;Europee;12/06/1994;10230;;;7813;;;7346;336;131;0
+1994;Elezioni Politiche;Camera dei Deputati;27/03/1994;10714;5232;5483;10701;5226;5475;8673;231;263;0
+1994;Elezioni Politiche;Senato della Repubblica;27/03/1994;10715;5232;5483;9288;4528;4760;7477;197;272;0
+1994;Elezioni Amministrative;Comunale;20/11/1994;10872;;;8559;;;8256;208;95;0
+1995;Elezioni Amministrative;Provinciali;23/04/1995;10888;5308;5580;6120;3095;3025;5744;251;125;0
+1995;Elezioni Amministrative;Regionali;23/04/1995;10888;5308;5580;8405;4170;4235;6657;398;354;0
+1996;Elezioni Politiche;Camera dei Deputati;21/04/1996;11077;5383;5694;8950;4436;4514;8392;270;284;0
+1996;Elezioni Politiche;Senato della Repubblica;21/04/1996;9732;4708;5024;7830;3881;3949;7371;208;251;0
+1997;Referendum Popolare;Referendum n. 1;15/05/1997;11092;5399;5693;3556;1799;1757;;;;
+1997;Referendum Popolare;Referendum n. 2;15/05/1997;11092;5399;5693;3556;1801;1755;;;;
+1997;Referendum Popolare;Referendum n. 3;15/05/1997;11092;5399;5693;3546;1792;1754;;;;
+1997;Referendum Popolare;Referendum n. 4;15/05/1997;11092;5399;5693;3554;1801;1753;;;;
+1997;Referendum Popolare;Referendum n. 5;15/05/1997;11092;5399;5693;3540;1789;1751;;;;
+1997;Referendum Popolare;Referendum n. 6;15/05/1997;11092;5399;5693;3554;1800;1754;;;;
+1997;Referendum Popolare;Referendum n. 7;15/05/1997;11092;5399;5693;3548;1796;1752;;;;
+1998;Elezioni Amministrative;Comunale;29/11/1998;11102;5395;5707;8366;4131;4235;8086;209;70;1
+1999;Elezioni Amministrative;Europee;13/06/1999;10501;;;6904;;;6212;378;314;0
+2000;Elezioni Amministrative;Regionale;16/04/2000;11065;5373;5692;7179;3602;3577;5972;398;153;0
+2001;Elezioni Politiche;Senato della Repubblica;13/05/2001;9967;4825;5142;7818;3868;3950;7426;201;191;0
+2001;Elezioni Politiche;Camera dei Deputati;13/05/2001;10952;5325;5627;8593;4286;4307;7995;279;319;0
+2003;Elezioni Amministrative;Comunali;25/05/2003;10922;5313;5609;7610;3777;3833;7321;212;77;0
+2003;Referendum Popolare;Referendum n. 1;15/06/2003;9915;4793;5122;1783;911;872;1709;24;50;0
+2003;Referendum Popolare;Referendum n. 2;15/06/2003;9915;4793;5122;1793;915;878;1734;20;39;0
+2004;Elezioni Amministrative;Europee;12/06/2004;10303;;;7176;;;6608;299;269;0
+2005;Elezioni Amministrative;Regionale;03/04/2005;10895;5316;5579;6875;3473;3402;6461;291;123;0
+2005;Referendum consultivo;Referendum n. 1;29/05/2005;10892;5318;5574;6353;3183;3170;6315;20;18;0
+2005;Referendum Popolare;Referendum n. 1;12/06/2005;9724;4714;5010;2083;1010;1073;1994;26;63;0
+2005;Referendum Popolare;Referendum n. 2;12/06/2005;9724;4714;5010;2083;1010;1073;1986;24;73;0
+2005;Referendum Popolare;Referendum n. 3;12/06/2005;9724;4714;5010;2082;1010;1072;1988;23;71;0
+2005;Referendum Popolare;Referendum n. 4;12/06/2005;9724;4714;5010;2081;1010;1071;1981;28;72;0
+2006;Elezioni Politiche;Senato della Repubblica;09/04/2006;9017;4348;4669;7778;3814;3937;7563;129;85;1
+2006;Elezioni Politiche;Camera dei Deputati;09/04/2006;9678;4675;5003;8353;4118;4235;8135;145;73;0
+2006;Referendum Confermativo;Referendum n. 1;25/06/2006;9670;4673;4997;5542;2784;2758;5508;17;17;0
+2008;Elezioni Amministrative;Comunali;13/04/2008;10792;5254;5538;8314;4108;4206;8024;144;146;0
+2008;Elezioni Politiche;Senato della Repubblica;13/04/2008;9095;4389;4706;7803;3848;3955;7488;111;201;3
+2008;Elezioni Politiche;Camera dei Deputati;13/04/2008;9694;4694;5000;8316;4112;4204;8012;198;102;4
+2009;Elezioni Amministrative;Provinciali;06/06/2009;10768;5242;5526;3457;1819;1638;6032;168;141;0
+2009;Elezioni Amministrative;Provinciali Ballottaggio;21/06/2009;10768;5242;5526;3457;1819;1638;3352;56;45;0
+2009;Elezioni Amministrative;Europee;06/06/2009;10234;4951;5283;6576;3293;3283;6310;142;117;7
+2009;Referendum Popolare;Referendum n. 1;21/06/2009;9617;4660;4957;2904;1519;1385;2512;82;310;0
+2009;Referendum Popolare;Referendum n. 2;21/06/2009;9617;4660;4957;2905;1520;1385;2504;86;315;0
+2009;Referendum Popolare;Referendum n. 3;21/06/2009;9617;4660;4957;2958;1548;1410;2626;70;262;0
+2010;Elezioni Amministrative;Regionali;28/03/2010;10787;5245;5542;6241;3161;3080;6011;174;51;0
+2011;Elezioni Amministrative;Comunali;16/05/2011;10809;5257;5552;7289;3633;3656;7050;183;56;0
+2011;Referendum Popolare;Referendum n. 1;12/06/2011;9629;4661;4968;4726;2321;2405;4629;25;72;0
+2011;Referendum Popolare;Referendum n. 2;12/06/2011;9629;4661;4968;4726;2320;2406;4643;21;62;0
+2011;Referendum Popolare;Referendum n. 3;12/06/2011;9629;4661;4968;4728;2321;2407;4659;19;50;0
+2011;Referendum Popolare;Referendum n. 4;12/06/2011;9629;4661;4968;4728;2320;2408;4628;19;81;0
+2013;Elezioni Politiche;Senato della Repubblica;24/02/2013;8974;4325;4649;7022;3521;3501;6760;185;77;0
+2013;Elezioni Politiche;Camera dei Deputati;24/02/2013;9548;4620;4928;7446;3736;3710;7170;197;79;0
+2014;Elezioni Amministrative;Europee;25/05/2014;10145;4877;5268;5195;2648;2547;5052;111;31;1
+2015;Elezioni Amministrative;Regionali;31/05/2015;10683;5179;5504;4964;2567;2397;4763;144;57;0
+2016;Referendum Popolare;Referendum n.1 ;17/04/2016;9371;4538;4833;2973;1507;1466;2938;14;21;0
+2016;Elezioni Amministrative;Comunali;05/06/2016;10719;5206;5513;6316;3160;3156;6117;156;42;1
