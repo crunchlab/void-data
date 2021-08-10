@@ -24,4 +24,5 @@ renderizzato e completato partendo dagli output delle apps.
 
 All'interno del sito sono presenti anche le infografiche in formato PDF.
 
-
+## Infografiche
+Nella directory `infografiche` sono presenti le infografiche statiche in PDF.
