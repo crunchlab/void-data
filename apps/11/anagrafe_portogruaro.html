@@ -1,0 +1,326 @@
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Anagrafe Immigrazioni Portogruaro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
+       <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.1.min.js" integrity="sha384-YF85VygJKMVnHE+lLv2AM93Vbstr0yo2TbIu5v8se5Rq3UQAUmcuh4aaJwNlpKwa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.3.1.min.js" integrity="sha384-KKuas3gevv3PvrlkyCMzffFeaMq5we/a2QsP5AUoS3mJ0jmaCL7jirFJN3GoE/lM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+    <style>
+      .bg-void {
+        background-color: rgb(35, 31, 30);
+      }
+    h1,h2,h3 {
+        text-align: center;
+        color: rgb(35, 31, 30);
+        font-family: "Work Sans";
+    }
+    p {
+        text-align:justify;
+        color: rgb(35, 31, 30);
+        font-family: "Work Sans";
+    }
+    </style>
+  </head>
+  
+    <body>
+<header>
+
+  <div class="navbar navbar-dark bg-void shadow-sm">
+    <div class="container ">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../images/logo-void-200.jpeg" alt="VOID">
+        </a>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="mx-auto" style="width: 50%">
+      <h1>Portogruaro</h1>
+      <h2>Iscrizioni all'Anagrafe dal 2000 al 2020</h2>
+      <p>
+      In questa pagina vengono presentati i rapporti tra la popolazione
+      iscritta all'anagrafe nel comune di Portogruaro dal 2000 al 2020.
+      I grafici sono relativi a due decenni, quello dal 2000 al 2010 e il
+      sucessivo, in modo da poter confrontare la diversa composizione
+      della popolazione nel corso del tempo.
+      </p>
+      <p>
+      L'analisi qualitativa dei dati può essere scaricata in PDF.
+      </p>
+</div>
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+          <a href="InfograficaVOID_11.pdf" class="btn btn-secondary my-2">PDF INFOGRAFICA</a>
+          <a href="https://dati.veneto.it/content/innovationlab-void-registro-apr-portogruaro-dal-1-gennaio-2000" class="btn btn-secondary my-2">OPEN DATA</a>
+        </p>
+      </div>
+    </div>
+  <section>
+
+  <h3>Rapporto tra Italiani e Stranieri</h3>
+  <p>Sul totale degli iscritti vengono conteggiate le persone di proveninza 
+  nazionale e internazionale.</p>
+  <hr>
+    
+<div class="bk-root" id="e8fc3ba1-717b-4699-8800-1b20fe40c957" data-root-id="1002"></div>
+    
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"bd74ecb7-c5c2-44bd-b274-3166ed3fe184":{"defs":[],"roots":{"references":[{"attributes":{"data_source":{"id":"1026"},"glyph":{"id":"1028"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1029"},"view":{"id":"1031"}},"id":"1030","type":"GlyphRenderer"},{"attributes":{"axis_label":null,"axis_label_text_font":"Work Sans","formatter":{"id":"1034"},"major_label_policy":{"id":"1035"},"ticker":{"id":"1014"},"visible":false},"id":"1013","type":"LinearAxis"},{"attributes":{},"id":"1040","type":"Selection"},{"attributes":{},"id":"1014","type":"BasicTicker"},{"attributes":{"end_angle":{"expr":{"id":"1025"}},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"value":0.4},"start_angle":{"expr":{"id":"1024"}},"x":{"value":0},"y":{"value":1}},"id":"1029","type":"Wedge"},{"attributes":{"label":{"field":"label"},"renderers":[{"id":"1030"}]},"id":"1042","type":"LegendItem"},{"attributes":{"align":"center","text":"Rapporto Italiani e Stranieri (2000-2010)","text_font":"Work Sans","text_font_size":"21px"},"id":"1003","type":"Title"},{"attributes":{"end_angle":{"expr":{"id":"1025"}},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"value":0.4},"start_angle":{"expr":{"id":"1024"}},"x":{"value":0},"y":{"value":1}},"id":"1028","type":"Wedge"},{"attributes":{"axis":{"id":"1013"},"grid_line_color":null,"ticker":null},"id":"1016","type":"Grid"},{"attributes":{},"id":"1007","type":"DataRange1d"},{"attributes":{"axis_label":null,"axis_label_text_font":"Work Sans","formatter":{"id":"1037"},"major_label_policy":{"id":"1038"},"ticker":{"id":"1018"},"visible":false},"id":"1017","type":"LinearAxis"},{"attributes":{},"id":"1039","type":"UnionRenderers"},{"attributes":{},"id":"1018","type":"BasicTicker"},{"attributes":{"source":{"id":"1026"}},"id":"1031","type":"CDSView"},{"attributes":{"items":[{"id":"1042"}],"label_text_font":"Work Sans"},"id":"1041","type":"Legend"},{"attributes":{"axis":{"id":"1017"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1020","type":"Grid"},{"attributes":{"field":"angle"},"id":"1025","type":"CumSum"},{"attributes":{},"id":"1035","type":"AllLabels"},{"attributes":{"callback":null,"tooltips":"@label: @amount"},"id":"1021","type":"HoverTool"},{"attributes":{},"id":"1009","type":"LinearScale"},{"attributes":{"data":{"amount":[5929,1466],"angle":{"__ndarray__":"zXn++H4mFEAuzRZt8e3zPw==","dtype":"float64","order":"little","shape":[2]},"color":["#8dd3c7","#ffffb3"],"index":[0,1],"label":["Italiani","Stranieri"]},"selected":{"id":"1040"},"selection_policy":{"id":"1039"}},"id":"1026","type":"ColumnDataSource"},{"attributes":{"field":"angle","include_zero":true},"id":"1024","type":"CumSum"},{"attributes":{},"id":"1037","type":"BasicTickFormatter"},{"attributes":{},"id":"1011","type":"LinearScale"},{"attributes":{},"id":"1038","type":"AllLabels"},{"attributes":{"start":-0.5},"id":"1005","type":"Range1d"},{"attributes":{},"id":"1034","type":"BasicTickFormatter"},{"attributes":{"active_multi":null,"tools":[{"id":"1021"}]},"id":"1022","type":"Toolbar"},{"attributes":{"below":[{"id":"1013"}],"center":[{"id":"1016"},{"id":"1020"},{"id":"1041"}],"left":[{"id":"1017"}],"renderers":[{"id":"1030"}],"title":{"id":"1003"},"toolbar":{"id":"1022"},"toolbar_location":null,"width":800,"x_range":{"id":"1005"},"x_scale":{"id":"1009"},"y_range":{"id":"1007"},"y_scale":{"id":"1011"}},"id":"1002","subtype":"Figure","type":"Plot"}],"root_ids":["1002"]},"title":"Bokeh Application","version":"2.3.1"}}';
+                var render_items = [{"docid":"bd74ecb7-c5c2-44bd-b274-3166ed3fe184","root_ids":["1002"],"roots":{"1002":"e8fc3ba1-717b-4699-8800-1b20fe40c957"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+
+    
+<div class="bk-root" id="60d1c982-2c77-4b22-9d50-a73704b696c3" data-root-id="1125"></div>
+    
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"fdc5a021-48ee-4ce2-b983-2baf2de8c945":{"defs":[],"roots":{"references":[{"attributes":{"active_multi":null,"tools":[{"id":"1144"}]},"id":"1145","type":"Toolbar"},{"attributes":{},"id":"1134","type":"LinearScale"},{"attributes":{"align":"center","text":"Rapporto Italiani e Stranieri (2010-2020)","text_font":"Work Sans","text_font_size":"21px"},"id":"1126","type":"Title"},{"attributes":{},"id":"1161","type":"AllLabels"},{"attributes":{"axis_label":null,"axis_label_text_font":"Work Sans","formatter":{"id":"1157"},"major_label_policy":{"id":"1158"},"ticker":{"id":"1137"},"visible":false},"id":"1136","type":"LinearAxis"},{"attributes":{"end_angle":{"expr":{"id":"1148"}},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"value":0.4},"start_angle":{"expr":{"id":"1147"}},"x":{"value":0},"y":{"value":1}},"id":"1151","type":"Wedge"},{"attributes":{},"id":"1160","type":"BasicTickFormatter"},{"attributes":{},"id":"1162","type":"UnionRenderers"},{"attributes":{},"id":"1137","type":"BasicTicker"},{"attributes":{"below":[{"id":"1136"}],"center":[{"id":"1139"},{"id":"1143"},{"id":"1164"}],"left":[{"id":"1140"}],"renderers":[{"id":"1153"}],"title":{"id":"1126"},"toolbar":{"id":"1145"},"toolbar_location":null,"width":800,"x_range":{"id":"1128"},"x_scale":{"id":"1132"},"y_range":{"id":"1130"},"y_scale":{"id":"1134"}},"id":"1125","subtype":"Figure","type":"Plot"},{"attributes":{"data_source":{"id":"1149"},"glyph":{"id":"1151"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1152"},"view":{"id":"1154"}},"id":"1153","type":"GlyphRenderer"},{"attributes":{"axis":{"id":"1136"},"grid_line_color":null,"ticker":null},"id":"1139","type":"Grid"},{"attributes":{},"id":"1163","type":"Selection"},{"attributes":{"axis_label":null,"axis_label_text_font":"Work Sans","formatter":{"id":"1160"},"major_label_policy":{"id":"1161"},"ticker":{"id":"1141"},"visible":false},"id":"1140","type":"LinearAxis"},{"attributes":{"field":"angle"},"id":"1148","type":"CumSum"},{"attributes":{"start":-0.5},"id":"1128","type":"Range1d"},{"attributes":{"items":[{"id":"1165"}],"label_text_font":"Work Sans"},"id":"1164","type":"Legend"},{"attributes":{},"id":"1141","type":"BasicTicker"},{"attributes":{"data":{"amount":[6490,1269],"angle":{"__ndarray__":"qsnR7rAFFUC2jcmVKXHwPw==","dtype":"float64","order":"little","shape":[2]},"color":["#8dd3c7","#ffffb3"],"index":[0,1],"label":["Italiani","Stranieri"]},"selected":{"id":"1163"},"selection_policy":{"id":"1162"}},"id":"1149","type":"ColumnDataSource"},{"attributes":{"label":{"field":"label"},"renderers":[{"id":"1153"}]},"id":"1165","type":"LegendItem"},{"attributes":{"axis":{"id":"1140"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1143","type":"Grid"},{"attributes":{},"id":"1157","type":"BasicTickFormatter"},{"attributes":{"field":"angle","include_zero":true},"id":"1147","type":"CumSum"},{"attributes":{"source":{"id":"1149"}},"id":"1154","type":"CDSView"},{"attributes":{},"id":"1130","type":"DataRange1d"},{"attributes":{"callback":null,"tooltips":"@label: @amount"},"id":"1144","type":"HoverTool"},{"attributes":{"end_angle":{"expr":{"id":"1148"}},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"value":0.4},"start_angle":{"expr":{"id":"1147"}},"x":{"value":0},"y":{"value":1}},"id":"1152","type":"Wedge"},{"attributes":{},"id":"1132","type":"LinearScale"},{"attributes":{},"id":"1158","type":"AllLabels"}],"root_ids":["1125"]},"title":"Bokeh Application","version":"2.3.1"}}';
+                var render_items = [{"docid":"fdc5a021-48ee-4ce2-b983-2baf2de8c945","root_ids":["1125"],"roots":{"1125":"60d1c982-2c77-4b22-9d50-a73704b696c3"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+
+
+  <hr>
+  <h3>Italiani: Distinzione per Provincia di Nascita</h3>
+  <p>La parte di popolazione di provenienza nazionale viene ulteriormente
+  divisa per la provincia di partenza.</p>
+  <hr>
+    
+<div class="bk-root" id="560a51b9-3946-4828-bbb0-7fa34cbb2792" data-root-id="1043"></div>
+    
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"9eca7441-aaaa-463c-a8a8-bf118810f831":{"defs":[],"roots":{"references":[{"attributes":{},"id":"1055","type":"BasicTicker"},{"attributes":{},"id":"1048","type":"DataRange1d"},{"attributes":{},"id":"1076","type":"AllLabels"},{"attributes":{"axis":{"id":"1054"},"grid_line_color":null,"ticker":null},"id":"1057","type":"Grid"},{"attributes":{"axis_label":null,"axis_label_text_font":"Work Sans","formatter":{"id":"1075"},"major_label_policy":{"id":"1076"},"ticker":{"id":"1055"},"visible":false},"id":"1054","type":"LinearAxis"},{"attributes":{"below":[{"id":"1054"}],"center":[{"id":"1057"},{"id":"1061"},{"id":"1082"}],"left":[{"id":"1058"}],"renderers":[{"id":"1071"}],"title":{"id":"1044"},"toolbar":{"id":"1063"},"toolbar_location":null,"width":800,"x_range":{"id":"1046"},"x_scale":{"id":"1050"},"y_range":{"id":"1048"},"y_scale":{"id":"1052"}},"id":"1043","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1078","type":"BasicTickFormatter"},{"attributes":{"axis_label":null,"axis_label_text_font":"Work Sans","formatter":{"id":"1078"},"major_label_policy":{"id":"1079"},"ticker":{"id":"1059"},"visible":false},"id":"1058","type":"LinearAxis"},{"attributes":{"field":"angle"},"id":"1066","type":"CumSum"},{"attributes":{},"id":"1079","type":"AllLabels"},{"attributes":{},"id":"1059","type":"BasicTicker"},{"attributes":{"start":-0.5},"id":"1046","type":"Range1d"},{"attributes":{"data":{"amount":[2766,521,348,304,160,124,107,103,1496],"angle":{"__ndarray__":"TpIyLitzB0C7ntKo/qrhPxgK8x48mtc//v+wLEae1D/wGib5E7TFP60hF+H10cA/1JA8HUEHvT/idcdQc/G7P+JVMYuqXfk/","dtype":"float64","order":"little","shape":[9]},"color":["#8dd3c7","#bebada","#fb8072","#ffffb3","#80b1d3","#fccde5","#fdb462","#d9d9d9","#bc80bd"],"index":[0,1,2,3,4,5,6,7,8],"label":["VE","PN","UD","TV","NA","CE","MI","RM","ALTRI"]},"selected":{"id":"1081"},"selection_policy":{"id":"1080"}},"id":"1067","type":"ColumnDataSource"},{"attributes":{},"id":"1080","type":"UnionRenderers"},{"attributes":{"axis":{"id":"1058"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1061","type":"Grid"},{"attributes":{"align":"center","text":"Dettaglio Italiani (2000-2010)","text_font":"Work Sans","text_font_size":"21px"},"id":"1044","type":"Title"},{"attributes":{},"id":"1081","type":"Selection"},{"attributes":{"data_source":{"id":"1067"},"glyph":{"id":"1069"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1070"},"view":{"id":"1072"}},"id":"1071","type":"GlyphRenderer"},{"attributes":{"field":"angle","include_zero":true},"id":"1065","type":"CumSum"},{"attributes":{"callback":null,"tooltips":"@label: @amount"},"id":"1062","type":"HoverTool"},{"attributes":{"items":[{"id":"1083"}],"label_text_font":"Work Sans"},"id":"1082","type":"Legend"},{"attributes":{"end_angle":{"expr":{"id":"1066"}},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"value":0.4},"start_angle":{"expr":{"id":"1065"}},"x":{"value":0},"y":{"value":1}},"id":"1069","type":"Wedge"},{"attributes":{},"id":"1050","type":"LinearScale"},{"attributes":{},"id":"1075","type":"BasicTickFormatter"},{"attributes":{"label":{"field":"label"},"renderers":[{"id":"1071"}]},"id":"1083","type":"LegendItem"},{"attributes":{"end_angle":{"expr":{"id":"1066"}},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"value":0.4},"start_angle":{"expr":{"id":"1065"}},"x":{"value":0},"y":{"value":1}},"id":"1070","type":"Wedge"},{"attributes":{"active_multi":null,"tools":[{"id":"1062"}]},"id":"1063","type":"Toolbar"},{"attributes":{},"id":"1052","type":"LinearScale"},{"attributes":{"source":{"id":"1067"}},"id":"1072","type":"CDSView"}],"root_ids":["1043"]},"title":"Bokeh Application","version":"2.3.1"}}';
+                var render_items = [{"docid":"9eca7441-aaaa-463c-a8a8-bf118810f831","root_ids":["1043"],"roots":{"1043":"560a51b9-3946-4828-bbb0-7fa34cbb2792"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+
+    
+<div class="bk-root" id="2a4ebcc8-ae74-4a6f-a5cf-7b8ef68ca5c3" data-root-id="1166"></div>
+    
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"41da99ed-4a03-4214-a010-bd76eabf5f00":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"1177"}],"center":[{"id":"1180"},{"id":"1184"},{"id":"1205"}],"left":[{"id":"1181"}],"renderers":[{"id":"1194"}],"title":{"id":"1167"},"toolbar":{"id":"1186"},"toolbar_location":null,"width":800,"x_range":{"id":"1169"},"x_scale":{"id":"1173"},"y_range":{"id":"1171"},"y_scale":{"id":"1175"}},"id":"1166","subtype":"Figure","type":"Plot"},{"attributes":{"field":"angle"},"id":"1189","type":"CumSum"},{"attributes":{"axis_label":null,"axis_label_text_font":"Work Sans","formatter":{"id":"1201"},"major_label_policy":{"id":"1202"},"ticker":{"id":"1182"},"visible":false},"id":"1181","type":"LinearAxis"},{"attributes":{"end_angle":{"expr":{"id":"1189"}},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"value":0.4},"start_angle":{"expr":{"id":"1188"}},"x":{"value":0},"y":{"value":1}},"id":"1192","type":"Wedge"},{"attributes":{},"id":"1182","type":"BasicTicker"},{"attributes":{"data":{"amount":[3464,668,494,297,100,94,90,1283],"angle":{"__ndarray__":"YFLmfzPUCkBUW3WY37HkP5uf9d/Gm94/JOVStvtm0j+yqsAywsi4P6fT07QSTLc/oJngYEhOtj9H7+8KtN/zPw==","dtype":"float64","order":"little","shape":[8]},"color":["#8dd3c7","#bebada","#fb8072","#ffffb3","#80b1d3","#b3de69","#fdb462","#bc80bd"],"index":[0,1,2,3,4,5,6,7],"label":["VE","PN","UD","TV","NA","PD","MI","ALTRI"]},"selected":{"id":"1204"},"selection_policy":{"id":"1203"}},"id":"1190","type":"ColumnDataSource"},{"attributes":{"start":-0.5},"id":"1169","type":"Range1d"},{"attributes":{"axis":{"id":"1181"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1184","type":"Grid"},{"attributes":{"source":{"id":"1190"}},"id":"1195","type":"CDSView"},{"attributes":{"align":"center","text":"Dettaglio Italiani (2010-2020)","text_font":"Work Sans","text_font_size":"21px"},"id":"1167","type":"Title"},{"attributes":{"data_source":{"id":"1190"},"glyph":{"id":"1192"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1193"},"view":{"id":"1195"}},"id":"1194","type":"GlyphRenderer"},{"attributes":{"field":"angle","include_zero":true},"id":"1188","type":"CumSum"},{"attributes":{"callback":null,"tooltips":"@label: @amount"},"id":"1185","type":"HoverTool"},{"attributes":{},"id":"1173","type":"LinearScale"},{"attributes":{},"id":"1202","type":"AllLabels"},{"attributes":{"active_multi":null,"tools":[{"id":"1185"}]},"id":"1186","type":"Toolbar"},{"attributes":{},"id":"1203","type":"UnionRenderers"},{"attributes":{},"id":"1199","type":"AllLabels"},{"attributes":{},"id":"1175","type":"LinearScale"},{"attributes":{},"id":"1204","type":"Selection"},{"attributes":{"end_angle":{"expr":{"id":"1189"}},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"value":0.4},"start_angle":{"expr":{"id":"1188"}},"x":{"value":0},"y":{"value":1}},"id":"1193","type":"Wedge"},{"attributes":{},"id":"1178","type":"BasicTicker"},{"attributes":{"items":[{"id":"1206"}],"label_text_font":"Work Sans"},"id":"1205","type":"Legend"},{"attributes":{},"id":"1198","type":"BasicTickFormatter"},{"attributes":{},"id":"1171","type":"DataRange1d"},{"attributes":{},"id":"1201","type":"BasicTickFormatter"},{"attributes":{"axis":{"id":"1177"},"grid_line_color":null,"ticker":null},"id":"1180","type":"Grid"},{"attributes":{"axis_label":null,"axis_label_text_font":"Work Sans","formatter":{"id":"1198"},"major_label_policy":{"id":"1199"},"ticker":{"id":"1178"},"visible":false},"id":"1177","type":"LinearAxis"},{"attributes":{"label":{"field":"label"},"renderers":[{"id":"1194"}]},"id":"1206","type":"LegendItem"}],"root_ids":["1166"]},"title":"Bokeh Application","version":"2.3.1"}}';
+                var render_items = [{"docid":"41da99ed-4a03-4214-a010-bd76eabf5f00","root_ids":["1166"],"roots":{"1166":"2a4ebcc8-ae74-4a6f-a5cf-7b8ef68ca5c3"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+
+
+  <hr>
+  <h3>Stranieri: Distinzione per Stato di Provenienza</h3>
+  <p>La parte di popolazione di provenienza internazionale viene ulteriormente
+  divisa per lo stato di partenza.</p>
+  <hr>
+    
+<div class="bk-root" id="33004597-61d8-49dd-809e-bf6d6741b7d8" data-root-id="1084"></div>
+    
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"84a3607d-9a32-4174-9dbe-e0681b10ba17":{"defs":[],"roots":{"references":[{"attributes":{},"id":"1121","type":"UnionRenderers"},{"attributes":{"axis_label":null,"axis_label_text_font":"Work Sans","formatter":{"id":"1119"},"major_label_policy":{"id":"1120"},"ticker":{"id":"1100"},"visible":false},"id":"1099","type":"LinearAxis"},{"attributes":{},"id":"1089","type":"DataRange1d"},{"attributes":{},"id":"1122","type":"Selection"},{"attributes":{},"id":"1117","type":"AllLabels"},{"attributes":{},"id":"1100","type":"BasicTicker"},{"attributes":{"items":[{"id":"1124"}],"label_text_font":"Work Sans"},"id":"1123","type":"Legend"},{"attributes":{"axis":{"id":"1099"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1102","type":"Grid"},{"attributes":{"start":-0.5},"id":"1087","type":"Range1d"},{"attributes":{"label":{"field":"label"},"renderers":[{"id":"1112"}]},"id":"1124","type":"LegendItem"},{"attributes":{"align":"center","text":"Dettaglio Stranieri (2000-2010)","text_font":"Work Sans","text_font_size":"21px"},"id":"1085","type":"Title"},{"attributes":{"field":"angle"},"id":"1107","type":"CumSum"},{"attributes":{"callback":null,"tooltips":"@label: @amount"},"id":"1103","type":"HoverTool"},{"attributes":{"below":[{"id":"1095"}],"center":[{"id":"1098"},{"id":"1102"},{"id":"1123"}],"left":[{"id":"1099"}],"renderers":[{"id":"1112"}],"title":{"id":"1085"},"toolbar":{"id":"1104"},"toolbar_location":null,"width":800,"x_range":{"id":"1087"},"x_scale":{"id":"1091"},"y_range":{"id":"1089"},"y_scale":{"id":"1093"}},"id":"1084","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1091","type":"LinearScale"},{"attributes":{"data":{"amount":[288,171,159,134,107,51,44,512],"angle":{"__ndarray__":"nKNF+uW/8z9JsjIZ4XPnP/w5Au+NzuU/XD8dV8tg4j9eYWBwoFndPx39N82F+ss/auTGam4jyD81AwXCIY4BQA==","dtype":"float64","order":"little","shape":[8]},"color":["#8dd3c7","#ffffb3","#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#ffed6f"],"index":[0,1,2,3,4,5,6,7],"label":["ROMANIA","ALBANIA","MAROCCO","UCRAINA","MOLDOVA","JUGOSLAVIA","GERMANIA","ALTRI"]},"selected":{"id":"1122"},"selection_policy":{"id":"1121"}},"id":"1108","type":"ColumnDataSource"},{"attributes":{"end_angle":{"expr":{"id":"1107"}},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"value":0.4},"start_angle":{"expr":{"id":"1106"}},"x":{"value":0},"y":{"value":1}},"id":"1111","type":"Wedge"},{"attributes":{"active_multi":null,"tools":[{"id":"1103"}]},"id":"1104","type":"Toolbar"},{"attributes":{},"id":"1116","type":"BasicTickFormatter"},{"attributes":{},"id":"1093","type":"LinearScale"},{"attributes":{"source":{"id":"1108"}},"id":"1113","type":"CDSView"},{"attributes":{"end_angle":{"expr":{"id":"1107"}},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"value":0.4},"start_angle":{"expr":{"id":"1106"}},"x":{"value":0},"y":{"value":1}},"id":"1110","type":"Wedge"},{"attributes":{},"id":"1119","type":"BasicTickFormatter"},{"attributes":{},"id":"1096","type":"BasicTicker"},{"attributes":{"field":"angle","include_zero":true},"id":"1106","type":"CumSum"},{"attributes":{},"id":"1120","type":"AllLabels"},{"attributes":{"axis":{"id":"1095"},"grid_line_color":null,"ticker":null},"id":"1098","type":"Grid"},{"attributes":{"axis_label":null,"axis_label_text_font":"Work Sans","formatter":{"id":"1116"},"major_label_policy":{"id":"1117"},"ticker":{"id":"1096"},"visible":false},"id":"1095","type":"LinearAxis"},{"attributes":{"data_source":{"id":"1108"},"glyph":{"id":"1110"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1111"},"view":{"id":"1113"}},"id":"1112","type":"GlyphRenderer"}],"root_ids":["1084"]},"title":"Bokeh Application","version":"2.3.1"}}';
+                var render_items = [{"docid":"84a3607d-9a32-4174-9dbe-e0681b10ba17","root_ids":["1084"],"roots":{"1084":"33004597-61d8-49dd-809e-bf6d6741b7d8"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+
+    
+<div class="bk-root" id="6efbb4c3-4e8b-45cb-9481-d280c25d95b1" data-root-id="1207"></div>
+    
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"d2ab85fd-7bcf-4367-91fb-21027af98574":{"defs":[],"roots":{"references":[{"attributes":{"items":[{"id":"1247"}],"label_text_font":"Work Sans"},"id":"1246","type":"Legend"},{"attributes":{},"id":"1243","type":"AllLabels"},{"attributes":{},"id":"1219","type":"BasicTicker"},{"attributes":{},"id":"1239","type":"BasicTickFormatter"},{"attributes":{"field":"angle","include_zero":true},"id":"1229","type":"CumSum"},{"attributes":{},"id":"1245","type":"Selection"},{"attributes":{"label":{"field":"label"},"renderers":[{"id":"1235"}]},"id":"1247","type":"LegendItem"},{"attributes":{"axis_label":null,"axis_label_text_font":"Work Sans","formatter":{"id":"1239"},"major_label_policy":{"id":"1240"},"ticker":{"id":"1219"},"visible":false},"id":"1218","type":"LinearAxis"},{"attributes":{"axis":{"id":"1218"},"grid_line_color":null,"ticker":null},"id":"1221","type":"Grid"},{"attributes":{"field":"angle"},"id":"1230","type":"CumSum"},{"attributes":{"axis_label":null,"axis_label_text_font":"Work Sans","formatter":{"id":"1242"},"major_label_policy":{"id":"1243"},"ticker":{"id":"1223"},"visible":false},"id":"1222","type":"LinearAxis"},{"attributes":{},"id":"1212","type":"DataRange1d"},{"attributes":{"data":{"amount":[291,128,100,75,69,59,34,30,483],"angle":{"__ndarray__":"+BLDg54N9z/PmsFtzUfkP+KBfvswsN8/auGevCTE1z/nulR6ad3VP7Z6LmExstI/e7SdREqMxT8hgeWWUAPDP4kjCku8IQNA","dtype":"float64","order":"little","shape":[9]},"color":["#8dd3c7","#80b1d3","#bebada","#fccde5","#fb8072","#ffffb3","#d9d9d9","#bc80bd","#ffed6f"],"index":[0,1,2,3,4,5,6,7,8],"label":["ROMANIA","MOLDOVA","MAROCCO","NIGERIA","UCRAINA","ALBANIA","EGITTO","REPUBBLICA POPOLARE CINESE","ALTRI"]},"selected":{"id":"1245"},"selection_policy":{"id":"1244"}},"id":"1231","type":"ColumnDataSource"},{"attributes":{},"id":"1223","type":"BasicTicker"},{"attributes":{"axis":{"id":"1222"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1225","type":"Grid"},{"attributes":{"start":-0.5},"id":"1210","type":"Range1d"},{"attributes":{"data_source":{"id":"1231"},"glyph":{"id":"1233"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1234"},"view":{"id":"1236"}},"id":"1235","type":"GlyphRenderer"},{"attributes":{"align":"center","text":"Dettaglio Stranieri (2010-2020)","text_font":"Work Sans","text_font_size":"21px"},"id":"1208","type":"Title"},{"attributes":{"below":[{"id":"1218"}],"center":[{"id":"1221"},{"id":"1225"},{"id":"1246"}],"left":[{"id":"1222"}],"renderers":[{"id":"1235"}],"title":{"id":"1208"},"toolbar":{"id":"1227"},"toolbar_location":null,"width":800,"x_range":{"id":"1210"},"x_scale":{"id":"1214"},"y_range":{"id":"1212"},"y_scale":{"id":"1216"}},"id":"1207","subtype":"Figure","type":"Plot"},{"attributes":{"end_angle":{"expr":{"id":"1230"}},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"value":0.4},"start_angle":{"expr":{"id":"1229"}},"x":{"value":0},"y":{"value":1}},"id":"1233","type":"Wedge"},{"attributes":{"callback":null,"tooltips":"@label: @amount"},"id":"1226","type":"HoverTool"},{"attributes":{},"id":"1242","type":"BasicTickFormatter"},{"attributes":{},"id":"1214","type":"LinearScale"},{"attributes":{"end_angle":{"expr":{"id":"1230"}},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"value":0.4},"start_angle":{"expr":{"id":"1229"}},"x":{"value":0},"y":{"value":1}},"id":"1234","type":"Wedge"},{"attributes":{"active_multi":null,"tools":[{"id":"1226"}]},"id":"1227","type":"Toolbar"},{"attributes":{"source":{"id":"1231"}},"id":"1236","type":"CDSView"},{"attributes":{},"id":"1244","type":"UnionRenderers"},{"attributes":{},"id":"1216","type":"LinearScale"},{"attributes":{},"id":"1240","type":"AllLabels"}],"root_ids":["1207"]},"title":"Bokeh Application","version":"2.3.1"}}';
+                var render_items = [{"docid":"d2ab85fd-7bcf-4367-91fb-21027af98574","root_ids":["1207"],"roots":{"1207":"6efbb4c3-4e8b-45cb-9481-d280c25d95b1"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+  <hr>
+</main>
+    </body>
+
+</html>
+
