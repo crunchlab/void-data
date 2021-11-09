@@ -1,0 +1,100 @@
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Concodia Sagittaria- Demografia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
+       <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.1.min.js" integrity="sha384-YF85VygJKMVnHE+lLv2AM93Vbstr0yo2TbIu5v8se5Rq3UQAUmcuh4aaJwNlpKwa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.3.1.min.js" integrity="sha384-KKuas3gevv3PvrlkyCMzffFeaMq5we/a2QsP5AUoS3mJ0jmaCL7jirFJN3GoE/lM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+    <style>
+      .bg-void {
+        background-color: rgb(35, 31, 30);
+      }
+    h1,h2,h3 {
+        text-align: center;
+        color: rgb(35, 31, 30);
+        font-family: "Work Sans";
+    }
+    p {
+        text-align:justify;
+        color: rgb(35, 31, 30);
+        font-family: "Work Sans";
+    }
+    </style>
+  </head>
+  
+    <body>
+<header>
+
+  <div class="navbar navbar-dark bg-void shadow-sm">
+    <div class="container ">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../images/logo-void-200.jpeg" alt="VOID">
+        </a>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="mx-auto" style="width: 50%">
+      <h1>Concordia Sagittaria</h1>
+      <h2>Dati Demografici dal 2006 al 2020</h2>
+      <p>
+      In questa pagina vengono presentati i dati demografici forniti dal
+      Comune di Concordia Sagittaria dal 2006 al 2020.
+      I dati vengono mostrati in due categorie: famiglie e migrazioni.
+      Ogni categoria viene presentata in valori assoluti e relativi.
+      </p>
+      <p>
+      L'analisi qualitativa dei dati può essere scaricata in PDF.
+      </p>
+</div>
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+          <a href="InfograficaVOID_14.pdf" class="btn btn-secondary my-2">PDF INFOGRAFICA</a>
+          <a href="" class="btn btn-secondary my-2">OPEN DATA</a>
+        </p>
+      </div>
+    </div>
+  <section>
+
+  <h3>Famiglie</h3>
+  <p>
+  Vengono di seguito presentati il numero di matrimoni e divorzi nel periodo
+  temporale, con un singolo dato cumulativo per anno.
+  Si può notare che gli andamenti non differiscono tra dati assoluti 
+  e relativi in quanto il numero di famiglie è sostanzialmente stabile
+  nel periodo temporale.
+  Non sono stati forniti altri dati per correlare l'aumento di divorzi
+  dal 2015 al 2019.
+  </p>
+  <hr>
+    $BOKEH_DIV_WED_A$
+    $BOKEH_SCRIPT_WED_A$
+    $BOKEH_DIV_WED_R$
+    $BOKEH_SCRIPT_WED_R$
+
+  <h3>Migrazioni</h3>
+  <p>
+  Vengono di seguito presentati i dati delle migrazioni del comune nel 
+  periodo temporale, con un singolo dato cumulativo per ogni anno.
+  Si può notare che gli andamenti non differiscono tra dati assoluti e
+  relativi in quando la popolazione è stabile nel periodo temporale.
+  Gli andamenti restano sostanzialmente stabili tra il 2 e il 3%
+  della popolazione, per entrambi i flussi.
+  </p>
+  <hr>
+    $BOKEH_DIV_MIG_A$
+    $BOKEH_SCRIPT_MIG_A$
+    $BOKEH_DIV_MIG_R$
+    $BOKEH_SCRIPT_MIG_R$
+  <hr>
+</main>
+    </body>
+
+</html>
+

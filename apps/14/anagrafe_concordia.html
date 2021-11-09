@@ -1,0 +1,248 @@
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Concodia Sagittaria- Demografia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
+       <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.1.min.js" integrity="sha384-YF85VygJKMVnHE+lLv2AM93Vbstr0yo2TbIu5v8se5Rq3UQAUmcuh4aaJwNlpKwa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.3.1.min.js" integrity="sha384-KKuas3gevv3PvrlkyCMzffFeaMq5we/a2QsP5AUoS3mJ0jmaCL7jirFJN3GoE/lM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+    <style>
+      .bg-void {
+        background-color: rgb(35, 31, 30);
+      }
+    h1,h2,h3 {
+        text-align: center;
+        color: rgb(35, 31, 30);
+        font-family: "Work Sans";
+    }
+    p {
+        text-align:justify;
+        color: rgb(35, 31, 30);
+        font-family: "Work Sans";
+    }
+    </style>
+  </head>
+  
+    <body>
+<header>
+
+  <div class="navbar navbar-dark bg-void shadow-sm">
+    <div class="container ">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../images/logo-void-200.jpeg" alt="VOID">
+        </a>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="mx-auto" style="width: 50%">
+      <h1>Concordia Sagittaria</h1>
+      <h2>Dati Demografici dal 2006 al 2020</h2>
+      <p>
+      In questa pagina vengono presentati i dati demografici forniti dal
+      Comune di Concordia Sagittaria dal 2006 al 2020.
+      I dati vengono mostrati in due categorie: famiglie e migrazioni.
+      Ogni categoria viene presentata in valori assoluti e relativi.
+      </p>
+      <p>
+      L'analisi qualitativa dei dati può essere scaricata in PDF.
+      </p>
+</div>
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+          <a href="InfograficaVOID_14.pdf" class="btn btn-secondary my-2">PDF INFOGRAFICA</a>
+          <a href="" class="btn btn-secondary my-2">OPEN DATA</a>
+        </p>
+      </div>
+    </div>
+  <section>
+
+  <h3>Famiglie</h3>
+  <p>
+  Vengono di seguito presentati il numero di matrimoni e divorzi nel periodo
+  temporale, con un singolo dato cumulativo per anno.
+  Si può notare che gli andamenti non differiscono tra dati assoluti 
+  e relativi in quanto il numero di famiglie è sostanzialmente stabile
+  nel periodo temporale.
+  Non sono stati forniti altri dati per correlare l'aumento di divorzi
+  dal 2015 al 2019.
+  </p>
+  <hr>
+    
+<div class="bk-root" id="7e96fd8f-9c87-4aa9-ba00-b4e9654e8a8f" data-root-id="1098"></div>
+    
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"040ac0f8-b927-49b1-a255-dd49b7addb7e":{"defs":[],"roots":{"references":[{"attributes":{"axis_label":"Totale","axis_label_text_font":"Work Sans","formatter":{"id":"1044"},"major_label_policy":{"id":"1046"},"ticker":{"id":"1018"}},"id":"1017","type":"LinearAxis"},{"attributes":{"align":"center","text":"Matrimoni e Divorzi Assoluti","text_font":"Work Sans","text_font_size":"21px"},"id":"1003","type":"Title"},{"attributes":{},"id":"1043","type":"AllLabels"},{"attributes":{"data":{"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"y":{"__ndarray__":"ukkMAiuHD0DLoUW28/0PQDMzMzMzMxBAc2iR7Xw/EEArhxbZzncQQESLbOf7qRBAVOOlm8SgEEDZzvdT46UQQG8Sg8DKoRBAPQrXo3C9EECDwMqhRbYQQOf7qfHSzRBAnMQgsHLoEEAK16NwPQoRQHWTGARWDhFA","dtype":"float64","order":"little","shape":[15]}},"selected":{"id":"1088"},"selection_policy":{"id":"1087"}},"id":"1070","type":"ColumnDataSource"},{"attributes":{},"id":"1018","type":"BasicTicker"},{"attributes":{"line_color":"rgb(44, 200, 77)","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1036","type":"Line"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1027","type":"BoxAnnotation"},{"attributes":{},"id":"1087","type":"UnionRenderers"},{"attributes":{"axis":{"id":"1017"},"dimension":1,"ticker":null},"id":"1020","type":"Grid"},{"attributes":{"data":{"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"y":[37,52,29,41,39,33,29,28,32,29,24,27,25,27,15]},"selected":{"id":"1049"},"selection_policy":{"id":"1048"}},"id":"1035","type":"ColumnDataSource"},{"attributes":{"line_alpha":0.1,"line_color":"rgb(229, 205, 230)","line_dash":[6],"line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1072","type":"Line"},{"attributes":{"below":[{"id":"1013"}],"center":[{"id":"1016"},{"id":"1020"},{"id":"1050"}],"height":400,"left":[{"id":"1017"}],"renderers":[{"id":"1038"},{"id":"1055"},{"id":"1073"}],"title":{"id":"1003"},"toolbar":{"id":"1028"},"width":800,"x_range":{"id":"1005"},"x_scale":{"id":"1009"},"y_range":{"id":"1007"},"y_scale":{"id":"1011"}},"id":"1002","subtype":"Figure","type":"Plot"},{"attributes":{"data_source":{"id":"1070"},"glyph":{"id":"1071"},"hover_glyph":null,"muted_glyph":null,"name":"famiglie","nonselection_glyph":{"id":"1072"},"view":{"id":"1074"}},"id":"1073","type":"GlyphRenderer"},{"attributes":{"data_source":{"id":"1035"},"glyph":{"id":"1036"},"hover_glyph":null,"muted_glyph":null,"name":"matrimoni","nonselection_glyph":{"id":"1037"},"view":{"id":"1039"}},"id":"1038","type":"GlyphRenderer"},{"attributes":{},"id":"1044","type":"BasicTickFormatter"},{"attributes":{"source":{"id":"1035"}},"id":"1039","type":"CDSView"},{"attributes":{"line_color":"rgb(229, 205, 230)","line_dash":[6],"line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1071","type":"Line"},{"attributes":{},"id":"1046","type":"AllLabels"},{"attributes":{"source":{"id":"1070"}},"id":"1074","type":"CDSView"},{"attributes":{},"id":"1021","type":"PanTool"},{"attributes":{},"id":"1048","type":"UnionRenderers"},{"attributes":{},"id":"1022","type":"WheelZoomTool"},{"attributes":{},"id":"1049","type":"Selection"},{"attributes":{},"id":"1088","type":"Selection"},{"attributes":{"overlay":{"id":"1027"}},"id":"1023","type":"BoxZoomTool"},{"attributes":{},"id":"1005","type":"DataRange1d"},{"attributes":{"items":[{"id":"1051"},{"id":"1069"},{"id":"1089"}],"label_text_font":"Work Sans"},"id":"1050","type":"Legend"},{"attributes":{"label":{"value":"FAMIGLIE (migliaia)"},"renderers":[{"id":"1073"}]},"id":"1089","type":"LegendItem"},{"attributes":{},"id":"1024","type":"SaveTool"},{"attributes":{"callback":null,"renderers":[{"id":"1038"}],"tooltips":[["ANNO","@x"],["MATRIMONI","@y"]]},"id":"1090","type":"HoverTool"},{"attributes":{"label":{"value":"MATRIMONI"},"renderers":[{"id":"1038"}]},"id":"1051","type":"LegendItem"},{"attributes":{},"id":"1009","type":"LinearScale"},{"attributes":{},"id":"1025","type":"ResetTool"},{"attributes":{},"id":"1007","type":"DataRange1d"},{"attributes":{"callback":null,"renderers":[{"id":"1055"}],"tooltips":[["ANNO","@x"],["DIVORZI","@y"]]},"id":"1092","type":"HoverTool"},{"attributes":{"data":{"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"y":[5,10,9,9,14,6,7,7,6,16,32,24,20,14,7]},"selected":{"id":"1068"},"selection_policy":{"id":"1067"}},"id":"1052","type":"ColumnDataSource"},{"attributes":{},"id":"1026","type":"HelpTool"},{"attributes":{"callback":null,"renderers":[{"id":"1073"}],"tooltips":[["ANNO","@x"],["FAMIGLIE (migliaia)","@y"]]},"id":"1094","type":"HoverTool"},{"attributes":{},"id":"1067","type":"UnionRenderers"},{"attributes":{"args":{"renderers":[{"id":"1038"},{"id":"1055"},{"id":"1073"}]},"code":"\\n    renderers.forEach(r =&gt; {\\n        r.visible = false;\\n    });\\n    this.active.forEach(a =&gt; {\\n        renderers[a].visible = true;\\n    });\\n    "},"id":"1096","type":"CustomJS"},{"attributes":{"line_alpha":0.1,"line_color":"rgb(238, 56, 49)","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1054","type":"Line"},{"attributes":{"label":{"value":"DIVORZI"},"renderers":[{"id":"1055"}]},"id":"1069","type":"LegendItem"},{"attributes":{"active_multi":null,"tools":[{"id":"1021"},{"id":"1022"},{"id":"1023"},{"id":"1024"},{"id":"1025"},{"id":"1026"},{"id":"1090"},{"id":"1092"},{"id":"1094"}]},"id":"1028","type":"Toolbar"},{"attributes":{"data_source":{"id":"1052"},"glyph":{"id":"1053"},"hover_glyph":null,"muted_glyph":null,"name":"divorzi","nonselection_glyph":{"id":"1054"},"view":{"id":"1056"}},"id":"1055","type":"GlyphRenderer"},{"attributes":{"active":[0,1,2],"js_property_callbacks":{"change:active":[{"id":"1096"}]},"labels":["MATRIMONI","DIVORZI","FAMIGLIE (migliaia)"]},"id":"1097","type":"CheckboxGroup"},{"attributes":{"line_alpha":0.1,"line_color":"rgb(44, 200, 77)","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1037","type":"Line"},{"attributes":{},"id":"1011","type":"LinearScale"},{"attributes":{"line_color":"rgb(238, 56, 49)","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1053","type":"Line"},{"attributes":{"children":[{"id":"1002"},{"id":"1097"}]},"id":"1098","type":"Column"},{"attributes":{},"id":"1041","type":"BasicTickFormatter"},{"attributes":{"source":{"id":"1052"}},"id":"1056","type":"CDSView"},{"attributes":{"axis_label":"Anno","axis_label_text_font":"Work Sans","formatter":{"id":"1041"},"major_label_policy":{"id":"1043"},"ticker":{"id":"1014"}},"id":"1013","type":"LinearAxis"},{"attributes":{},"id":"1014","type":"BasicTicker"},{"attributes":{},"id":"1068","type":"Selection"},{"attributes":{"axis":{"id":"1013"},"ticker":null},"id":"1016","type":"Grid"}],"root_ids":["1098"]},"title":"Bokeh Application","version":"2.3.1"}}';
+                var render_items = [{"docid":"040ac0f8-b927-49b1-a255-dd49b7addb7e","root_ids":["1098"],"roots":{"1098":"7e96fd8f-9c87-4aa9-ba00-b4e9654e8a8f"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+    
+<div class="bk-root" id="a4018598-fae6-4eb0-af24-1d8f659b1e2e" data-root-id="1173"></div>
+    
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"834886d0-057c-4edb-961b-979aab8e81c0":{"defs":[],"roots":{"references":[{"attributes":{},"id":"1104","type":"DataRange1d"},{"attributes":{"active_multi":null,"tools":[{"id":"1118"},{"id":"1119"},{"id":"1120"},{"id":"1121"},{"id":"1122"},{"id":"1123"},{"id":"1167"},{"id":"1169"}]},"id":"1125","type":"Toolbar"},{"attributes":{},"id":"1106","type":"LinearScale"},{"attributes":{},"id":"1165","type":"Selection"},{"attributes":{},"id":"1138","type":"BasicTickFormatter"},{"attributes":{},"id":"1108","type":"LinearScale"},{"attributes":{"label":{"value":"DIVORZI"},"renderers":[{"id":"1152"}]},"id":"1166","type":"LegendItem"},{"attributes":{"data_source":{"id":"1132"},"glyph":{"id":"1133"},"hover_glyph":null,"muted_glyph":null,"name":"matrimoni","nonselection_glyph":{"id":"1134"},"view":{"id":"1136"}},"id":"1135","type":"GlyphRenderer"},{"attributes":{"source":{"id":"1132"}},"id":"1136","type":"CDSView"},{"attributes":{"axis_label":"Anno","axis_label_text_font":"Work Sans","formatter":{"id":"1138"},"major_label_policy":{"id":"1140"},"ticker":{"id":"1111"}},"id":"1110","type":"LinearAxis"},{"attributes":{"callback":null,"renderers":[{"id":"1135"}],"tooltips":[["ANNO","@x"],["MATRIMONI","@y %"]]},"id":"1167","type":"HoverTool"},{"attributes":{"source":{"id":"1149"}},"id":"1153","type":"CDSView"},{"attributes":{"callback":null,"renderers":[{"id":"1152"}],"tooltips":[["ANNO","@x"],["DIVORZI","@y %"]]},"id":"1169","type":"HoverTool"},{"attributes":{},"id":"1111","type":"BasicTicker"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1124","type":"BoxAnnotation"},{"attributes":{"axis":{"id":"1110"},"ticker":null},"id":"1113","type":"Grid"},{"attributes":{"args":{"renderers":[{"id":"1135"},{"id":"1152"}]},"code":"\\n    renderers.forEach(r =&gt; {\\n        r.visible = false;\\n    });\\n    this.active.forEach(a =&gt; {\\n        renderers[a].visible = true;\\n    });\\n    "},"id":"1171","type":"CustomJS"},{"attributes":{"active":[0,1],"js_property_callbacks":{"change:active":[{"id":"1171"}]},"labels":["MATRIMONI","DIVORZI"]},"id":"1172","type":"CheckboxGroup"},{"attributes":{"axis_label":"Percentuale su Famiglie","axis_label_text_font":"Work Sans","formatter":{"id":"1141"},"major_label_policy":{"id":"1143"},"ticker":{"id":"1115"}},"id":"1114","type":"LinearAxis"},{"attributes":{},"id":"1140","type":"AllLabels"},{"attributes":{},"id":"1141","type":"BasicTickFormatter"},{"attributes":{"children":[{"id":"1099"},{"id":"1172"}]},"id":"1173","type":"Column"},{"attributes":{},"id":"1115","type":"BasicTicker"},{"attributes":{},"id":"1143","type":"AllLabels"},{"attributes":{"axis":{"id":"1114"},"dimension":1,"ticker":null},"id":"1117","type":"Grid"},{"attributes":{},"id":"1145","type":"UnionRenderers"},{"attributes":{"line_color":"rgb(44, 200, 77)","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1133","type":"Line"},{"attributes":{},"id":"1146","type":"Selection"},{"attributes":{"data":{"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"y":{"__ndarray__":"zczMzMzM7D/NzMzMzMz0P2ZmZmZmZuY/AAAAAAAA8D/NzMzMzMzsP5qZmZmZmek/ZmZmZmZm5j9mZmZmZmbmP5qZmZmZmek/ZmZmZmZm5j8zMzMzMzPjPzMzMzMzM+M/MzMzMzMz4z8zMzMzMzPjP5qZmZmZmdk/","dtype":"float64","order":"little","shape":[15]}},"selected":{"id":"1146"},"selection_policy":{"id":"1145"}},"id":"1132","type":"ColumnDataSource"},{"attributes":{"items":[{"id":"1148"},{"id":"1166"}],"label_text_font":"Work Sans"},"id":"1147","type":"Legend"},{"attributes":{},"id":"1118","type":"PanTool"},{"attributes":{"label":{"value":"MATRIMONI"},"renderers":[{"id":"1135"}]},"id":"1148","type":"LegendItem"},{"attributes":{},"id":"1119","type":"WheelZoomTool"},{"attributes":{"data":{"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"y":{"__ndarray__":"mpmZmZmZuT8zMzMzMzPTP5qZmZmZmck/mpmZmZmZyT8zMzMzMzPTP5qZmZmZmbk/mpmZmZmZyT+amZmZmZnJP5qZmZmZmbk/mpmZmZmZ2T+amZmZmZnpPzMzMzMzM+M/AAAAAAAA4D8zMzMzMzPTP5qZmZmZmck/","dtype":"float64","order":"little","shape":[15]}},"selected":{"id":"1165"},"selection_policy":{"id":"1164"}},"id":"1149","type":"ColumnDataSource"},{"attributes":{"overlay":{"id":"1124"}},"id":"1120","type":"BoxZoomTool"},{"attributes":{},"id":"1164","type":"UnionRenderers"},{"attributes":{},"id":"1121","type":"SaveTool"},{"attributes":{"below":[{"id":"1110"}],"center":[{"id":"1113"},{"id":"1117"},{"id":"1147"}],"height":400,"left":[{"id":"1114"}],"renderers":[{"id":"1135"},{"id":"1152"}],"title":{"id":"1100"},"toolbar":{"id":"1125"},"width":800,"x_range":{"id":"1102"},"x_scale":{"id":"1106"},"y_range":{"id":"1104"},"y_scale":{"id":"1108"}},"id":"1099","subtype":"Figure","type":"Plot"},{"attributes":{"line_alpha":0.1,"line_color":"rgb(238, 56, 49)","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1151","type":"Line"},{"attributes":{},"id":"1122","type":"ResetTool"},{"attributes":{"data_source":{"id":"1149"},"glyph":{"id":"1150"},"hover_glyph":null,"muted_glyph":null,"name":"divorzi","nonselection_glyph":{"id":"1151"},"view":{"id":"1153"}},"id":"1152","type":"GlyphRenderer"},{"attributes":{"line_alpha":0.1,"line_color":"rgb(44, 200, 77)","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1134","type":"Line"},{"attributes":{"align":"center","text":"Matrimoni e Divorzi Relativi","text_font":"Work Sans","text_font_size":"21px"},"id":"1100","type":"Title"},{"attributes":{},"id":"1123","type":"HelpTool"},{"attributes":{"line_color":"rgb(238, 56, 49)","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1150","type":"Line"},{"attributes":{},"id":"1102","type":"DataRange1d"}],"root_ids":["1173"]},"title":"Bokeh Application","version":"2.3.1"}}';
+                var render_items = [{"docid":"834886d0-057c-4edb-961b-979aab8e81c0","root_ids":["1173"],"roots":{"1173":"a4018598-fae6-4eb0-af24-1d8f659b1e2e"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+
+  <h3>Migrazioni</h3>
+  <p>
+  Vengono di seguito presentati i dati delle migrazioni del comune nel 
+  periodo temporale, con un singolo dato cumulativo per ogni anno.
+  Si può notare che gli andamenti non differiscono tra dati assoluti e
+  relativi in quando la popolazione è stabile nel periodo temporale.
+  Gli andamenti restano sostanzialmente stabili tra il 2 e il 3%
+  della popolazione, per entrambi i flussi.
+  </p>
+  <hr>
+    
+<div class="bk-root" id="6c95847e-15a2-4381-bdd9-f8936d70d3ae" data-root-id="1270"></div>
+    
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"68b72b43-3cdd-4e9f-ba7d-01fc2126dd2c":{"defs":[],"roots":{"references":[{"attributes":{"source":{"id":"1207"}},"id":"1211","type":"CDSView"},{"attributes":{},"id":"1190","type":"BasicTicker"},{"attributes":{"source":{"id":"1242"}},"id":"1246","type":"CDSView"},{"attributes":{"axis":{"id":"1189"},"dimension":1,"ticker":null},"id":"1192","type":"Grid"},{"attributes":{},"id":"1259","type":"UnionRenderers"},{"attributes":{},"id":"1215","type":"AllLabels"},{"attributes":{"line_alpha":0.1,"line_color":"rgb(44, 200, 77)","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1209","type":"Line"},{"attributes":{},"id":"1260","type":"Selection"},{"attributes":{},"id":"1216","type":"BasicTickFormatter"},{"attributes":{},"id":"1213","type":"BasicTickFormatter"},{"attributes":{"label":{"value":"POPOLAZIONE (migliaia)"},"renderers":[{"id":"1245"}]},"id":"1261","type":"LegendItem"},{"attributes":{},"id":"1218","type":"AllLabels"},{"attributes":{"callback":null,"renderers":[{"id":"1210"}],"tooltips":[["ANNO","@x"],["IMMIGRATI","@y"]]},"id":"1262","type":"HoverTool"},{"attributes":{},"id":"1193","type":"PanTool"},{"attributes":{"axis_label":"Totale","axis_label_text_font":"Work Sans","formatter":{"id":"1216"},"major_label_policy":{"id":"1218"},"ticker":{"id":"1190"}},"id":"1189","type":"LinearAxis"},{"attributes":{},"id":"1220","type":"UnionRenderers"},{"attributes":{"callback":null,"renderers":[{"id":"1227"}],"tooltips":[["ANNO","@x"],["EMIGRATI","@y"]]},"id":"1264","type":"HoverTool"},{"attributes":{},"id":"1194","type":"WheelZoomTool"},{"attributes":{},"id":"1221","type":"Selection"},{"attributes":{"callback":null,"renderers":[{"id":"1245"}],"tooltips":[["ANNO","@x"],["POPOLAZIONE (migliaia)","@y"]]},"id":"1266","type":"HoverTool"},{"attributes":{"overlay":{"id":"1199"}},"id":"1195","type":"BoxZoomTool"},{"attributes":{"items":[{"id":"1223"},{"id":"1241"},{"id":"1261"}],"label_text_font":"Work Sans","location":"center_right"},"id":"1222","type":"Legend"},{"attributes":{"args":{"renderers":[{"id":"1210"},{"id":"1227"},{"id":"1245"}]},"code":"\\n    renderers.forEach(r =&gt; {\\n        r.visible = false;\\n    });\\n    this.active.forEach(a =&gt; {\\n        renderers[a].visible = true;\\n    });\\n    "},"id":"1268","type":"CustomJS"},{"attributes":{"below":[{"id":"1185"}],"center":[{"id":"1188"},{"id":"1192"},{"id":"1222"}],"height":400,"left":[{"id":"1189"}],"renderers":[{"id":"1210"},{"id":"1227"},{"id":"1245"}],"title":{"id":"1175"},"toolbar":{"id":"1200"},"width":800,"x_range":{"id":"1177"},"x_scale":{"id":"1181"},"y_range":{"id":"1179"},"y_scale":{"id":"1183"}},"id":"1174","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1196","type":"SaveTool"},{"attributes":{"label":{"value":"IMMIGRATI"},"renderers":[{"id":"1210"}]},"id":"1223","type":"LegendItem"},{"attributes":{"active":[0,1,2],"js_property_callbacks":{"change:active":[{"id":"1268"}]},"labels":["IMMIGRATI","EMIGRATI","POPOLAZIONE (migliaia)"]},"id":"1269","type":"CheckboxGroup"},{"attributes":{"data":{"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"y":[263,327,277,223,280,276,278,239,248,265,253,263,320,315,316]},"selected":{"id":"1221"},"selection_policy":{"id":"1220"}},"id":"1207","type":"ColumnDataSource"},{"attributes":{},"id":"1197","type":"ResetTool"},{"attributes":{"align":"center","text":"Migrazioni Assolute","text_font":"Work Sans","text_font_size":"21px"},"id":"1175","type":"Title"},{"attributes":{"data":{"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"y":[271,274,281,290,259,265,287,258,308,281,253,221,259,291,286]},"selected":{"id":"1240"},"selection_policy":{"id":"1239"}},"id":"1224","type":"ColumnDataSource"},{"attributes":{"children":[{"id":"1174"},{"id":"1269"}]},"id":"1270","type":"Column"},{"attributes":{},"id":"1198","type":"HelpTool"},{"attributes":{},"id":"1177","type":"DataRange1d"},{"attributes":{},"id":"1239","type":"UnionRenderers"},{"attributes":{"data":{"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"y":{"__ndarray__":"Di2yne9nJUDNzMzMzIwlQPhT46WbhCVAke18PzVeJUA730+Nl24lQFCNl24SQyVAIbByaJEtJUAv3SQGgRUlQKRwPQrX4yRAEoPAyqHFJEB7FK5H4bokQOXQItv5viRAarx0kxjEJEBGtvP91LgkQDEIrBxapCRA","dtype":"float64","order":"little","shape":[15]}},"selected":{"id":"1260"},"selection_policy":{"id":"1259"}},"id":"1242","type":"ColumnDataSource"},{"attributes":{},"id":"1179","type":"DataRange1d"},{"attributes":{"line_alpha":0.1,"line_color":"rgb(238, 56, 49)","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1226","type":"Line"},{"attributes":{"active_multi":null,"tools":[{"id":"1193"},{"id":"1194"},{"id":"1195"},{"id":"1196"},{"id":"1197"},{"id":"1198"},{"id":"1262"},{"id":"1264"},{"id":"1266"}]},"id":"1200","type":"Toolbar"},{"attributes":{"data_source":{"id":"1224"},"glyph":{"id":"1225"},"hover_glyph":null,"muted_glyph":null,"name":"emigrati","nonselection_glyph":{"id":"1226"},"view":{"id":"1228"}},"id":"1227","type":"GlyphRenderer"},{"attributes":{},"id":"1181","type":"LinearScale"},{"attributes":{"label":{"value":"EMIGRATI"},"renderers":[{"id":"1227"}]},"id":"1241","type":"LegendItem"},{"attributes":{"line_color":"rgb(238, 56, 49)","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1225","type":"Line"},{"attributes":{},"id":"1183","type":"LinearScale"},{"attributes":{"source":{"id":"1224"}},"id":"1228","type":"CDSView"},{"attributes":{"axis_label":"Anno","axis_label_text_font":"Work Sans","formatter":{"id":"1213"},"major_label_policy":{"id":"1215"},"ticker":{"id":"1186"}},"id":"1185","type":"LinearAxis"},{"attributes":{},"id":"1240","type":"Selection"},{"attributes":{},"id":"1186","type":"BasicTicker"},{"attributes":{"line_alpha":0.1,"line_color":"rgb(229, 205, 230)","line_dash":[6],"line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1244","type":"Line"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1199","type":"BoxAnnotation"},{"attributes":{"axis":{"id":"1185"},"ticker":null},"id":"1188","type":"Grid"},{"attributes":{"line_color":"rgb(229, 205, 230)","line_dash":[6],"line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1243","type":"Line"},{"attributes":{"data_source":{"id":"1207"},"glyph":{"id":"1208"},"hover_glyph":null,"muted_glyph":null,"name":"immigrati","nonselection_glyph":{"id":"1209"},"view":{"id":"1211"}},"id":"1210","type":"GlyphRenderer"},{"attributes":{"data_source":{"id":"1242"},"glyph":{"id":"1243"},"hover_glyph":null,"muted_glyph":null,"name":"popolazione","nonselection_glyph":{"id":"1244"},"view":{"id":"1246"}},"id":"1245","type":"GlyphRenderer"},{"attributes":{"line_color":"rgb(44, 200, 77)","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1208","type":"Line"}],"root_ids":["1270"]},"title":"Bokeh Application","version":"2.3.1"}}';
+                var render_items = [{"docid":"68b72b43-3cdd-4e9f-ba7d-01fc2126dd2c","root_ids":["1270"],"roots":{"1270":"6c95847e-15a2-4381-bdd9-f8936d70d3ae"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+    
+<div class="bk-root" id="49960eb4-3c6d-4438-bbf2-d5475a887fd1" data-root-id="1345"></div>
+    
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"27add941-3b86-4d9a-8d59-6d2f651a4b96":{"defs":[],"roots":{"references":[{"attributes":{"callback":null,"renderers":[{"id":"1324"}],"tooltips":[["ANNO","@x"],["EMIGRATI","@y %"]]},"id":"1341","type":"HoverTool"},{"attributes":{},"id":"1283","type":"BasicTicker"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1296","type":"BoxAnnotation"},{"attributes":{"axis":{"id":"1282"},"ticker":null},"id":"1285","type":"Grid"},{"attributes":{"args":{"renderers":[{"id":"1307"},{"id":"1324"}]},"code":"\\n    renderers.forEach(r =&gt; {\\n        r.visible = false;\\n    });\\n    this.active.forEach(a =&gt; {\\n        renderers[a].visible = true;\\n    });\\n    "},"id":"1343","type":"CustomJS"},{"attributes":{},"id":"1312","type":"AllLabels"},{"attributes":{"active":[0,1,2],"js_property_callbacks":{"change:active":[{"id":"1343"}]},"labels":["IMMIGRATI","EMIGRATI"]},"id":"1344","type":"CheckboxGroup"},{"attributes":{"axis_label":"Percentuale su Popolazione","axis_label_text_font":"Work Sans","formatter":{"id":"1313"},"major_label_policy":{"id":"1315"},"ticker":{"id":"1287"}},"id":"1286","type":"LinearAxis"},{"attributes":{},"id":"1313","type":"BasicTickFormatter"},{"attributes":{"children":[{"id":"1271"},{"id":"1344"}]},"id":"1345","type":"Column"},{"attributes":{},"id":"1287","type":"BasicTicker"},{"attributes":{},"id":"1315","type":"AllLabels"},{"attributes":{"axis":{"id":"1286"},"dimension":1,"ticker":null},"id":"1289","type":"Grid"},{"attributes":{"callback":null,"renderers":[{"id":"1307"}],"tooltips":[["ANNO","@x"],["IMMIGRATI","@y %"]]},"id":"1339","type":"HoverTool"},{"attributes":{},"id":"1317","type":"UnionRenderers"},{"attributes":{},"id":"1310","type":"BasicTickFormatter"},{"attributes":{},"id":"1318","type":"Selection"},{"attributes":{"data":{"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"y":{"__ndarray__":"AAAAAAAABEAAAAAAAAAIQM3MzMzMzARAzczMzMzMAEDNzMzMzMwEQM3MzMzMzARAzczMzMzMBEBmZmZmZmYCQDMzMzMzMwNAzczMzMzMBEAzMzMzMzMDQAAAAAAAAARAzczMzMzMCEAAAAAAAAAIQM3MzMzMzAhA","dtype":"float64","order":"little","shape":[15]}},"selected":{"id":"1318"},"selection_policy":{"id":"1317"}},"id":"1304","type":"ColumnDataSource"},{"attributes":{"items":[{"id":"1320"},{"id":"1338"}],"label_text_font":"Work Sans","location":"bottom_right"},"id":"1319","type":"Legend"},{"attributes":{},"id":"1290","type":"PanTool"},{"attributes":{"label":{"value":"IMMIGRATI"},"renderers":[{"id":"1307"}]},"id":"1320","type":"LegendItem"},{"attributes":{},"id":"1291","type":"WheelZoomTool"},{"attributes":{"data":{"x":[2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],"y":{"__ndarray__":"AAAAAAAABEAAAAAAAAAEQM3MzMzMzARAmpmZmZmZBUAzMzMzMzMDQAAAAAAAAARAmpmZmZmZBUAzMzMzMzMDQDMzMzMzMwdAmpmZmZmZBUAzMzMzMzMDQM3MzMzMzABAAAAAAAAABEBmZmZmZmYGQGZmZmZmZgZA","dtype":"float64","order":"little","shape":[15]}},"selected":{"id":"1337"},"selection_policy":{"id":"1336"}},"id":"1321","type":"ColumnDataSource"},{"attributes":{"overlay":{"id":"1296"}},"id":"1292","type":"BoxZoomTool"},{"attributes":{},"id":"1336","type":"UnionRenderers"},{"attributes":{},"id":"1293","type":"SaveTool"},{"attributes":{"below":[{"id":"1282"}],"center":[{"id":"1285"},{"id":"1289"},{"id":"1319"}],"height":400,"left":[{"id":"1286"}],"renderers":[{"id":"1307"},{"id":"1324"}],"title":{"id":"1272"},"toolbar":{"id":"1297"},"width":800,"x_range":{"id":"1274"},"x_scale":{"id":"1278"},"y_range":{"id":"1276"},"y_scale":{"id":"1280"}},"id":"1271","subtype":"Figure","type":"Plot"},{"attributes":{"line_alpha":0.1,"line_color":"rgb(238, 56, 49)","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1323","type":"Line"},{"attributes":{},"id":"1294","type":"ResetTool"},{"attributes":{"data_source":{"id":"1321"},"glyph":{"id":"1322"},"hover_glyph":null,"muted_glyph":null,"name":"emigrati","nonselection_glyph":{"id":"1323"},"view":{"id":"1325"}},"id":"1324","type":"GlyphRenderer"},{"attributes":{"align":"center","text":"Migrazioni Relative","text_font":"Work Sans","text_font_size":"21px"},"id":"1272","type":"Title"},{"attributes":{},"id":"1295","type":"HelpTool"},{"attributes":{"line_color":"rgb(238, 56, 49)","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1322","type":"Line"},{"attributes":{},"id":"1274","type":"DataRange1d"},{"attributes":{"source":{"id":"1321"}},"id":"1325","type":"CDSView"},{"attributes":{"line_alpha":0.1,"line_color":"rgb(44, 200, 77)","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1306","type":"Line"},{"attributes":{},"id":"1276","type":"DataRange1d"},{"attributes":{"active_multi":null,"tools":[{"id":"1290"},{"id":"1291"},{"id":"1292"},{"id":"1293"},{"id":"1294"},{"id":"1295"},{"id":"1339"},{"id":"1341"}]},"id":"1297","type":"Toolbar"},{"attributes":{"source":{"id":"1304"}},"id":"1308","type":"CDSView"},{"attributes":{},"id":"1278","type":"LinearScale"},{"attributes":{},"id":"1337","type":"Selection"},{"attributes":{"line_color":"rgb(44, 200, 77)","line_width":3,"x":{"field":"x"},"y":{"field":"y"}},"id":"1305","type":"Line"},{"attributes":{},"id":"1280","type":"LinearScale"},{"attributes":{"label":{"value":"EMIGRATI"},"renderers":[{"id":"1324"}]},"id":"1338","type":"LegendItem"},{"attributes":{"data_source":{"id":"1304"},"glyph":{"id":"1305"},"hover_glyph":null,"muted_glyph":null,"name":"immigrati","nonselection_glyph":{"id":"1306"},"view":{"id":"1308"}},"id":"1307","type":"GlyphRenderer"},{"attributes":{"axis_label":"Anno","axis_label_text_font":"Work Sans","formatter":{"id":"1310"},"major_label_policy":{"id":"1312"},"ticker":{"id":"1283"}},"id":"1282","type":"LinearAxis"}],"root_ids":["1345"]},"title":"Bokeh Application","version":"2.3.1"}}';
+                var render_items = [{"docid":"27add941-3b86-4d9a-8d59-6d2f651a4b96","root_ids":["1345"],"roots":{"1345":"49960eb4-3c6d-4438-bbf2-d5475a887fd1"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+  <hr>
+</main>
+    </body>
+
+</html>
+
