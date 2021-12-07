@@ -1,0 +1,177 @@
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Concodia Sagittaria - Migrazioni</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
+       <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.1.min.js" integrity="sha384-YF85VygJKMVnHE+lLv2AM93Vbstr0yo2TbIu5v8se5Rq3UQAUmcuh4aaJwNlpKwa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.3.1.min.js" integrity="sha384-KKuas3gevv3PvrlkyCMzffFeaMq5we/a2QsP5AUoS3mJ0jmaCL7jirFJN3GoE/lM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+    <style>
+      .bg-void {
+        background-color: rgb(35, 31, 30);
+      }
+    h1,h2,h3 {
+        text-align: center;
+        color: rgb(35, 31, 30);
+        font-family: "Work Sans";
+    }
+    p {
+        text-align:justify;
+        color: rgb(35, 31, 30);
+        font-family: "Work Sans";
+    }
+    </style>
+  </head>
+  
+    <body>
+<header>
+
+  <div class="navbar navbar-dark bg-void shadow-sm">
+    <div class="container ">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../images/logo-void-200.jpeg" alt="VOID">
+        </a>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="mx-auto" style="width: 50%">
+      <h1>Concordia Sagittaria</h1>
+      <h2>Migrazioni nell'anno 2000</h2>
+      <p>
+      In questa pagina vengono presentati i dati relativi ai flussi migratori
+      nel comune di Concordia Sagittaria nell'anno 2000.
+      </p>
+      <p>
+      I dati vengono aggregati per fasce d'età e rappresentati in due livelli:
+      il bilancio totale e il dettaglio. I dati disaggregati sono disponibili 
+      nel portale Open Data Veneto.
+      </p>
+      <p>
+      Non sono disponibili informazioni sulla nazionalità dei migranti.
+      </p>
+      <p>
+      L'analisi qualitativa dei dati può essere scaricata in PDF.
+      </p>
+</div>
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+          <a href="InfograficaVOID_15.pdf" class="btn btn-secondary my-2">PDF INFOGRAFICA</a>
+          <a href="" class="btn btn-secondary my-2">OPEN DATA</a>
+        </p>
+      </div>
+    </div>
+  <section>
+
+  <h3>Bilancio Migratorio</h3>
+  <p>
+  In questo grafico vengono rappresentati i bilanci migratori (immigrati meno
+  emigrati) per le fasce d'età. Le barre al di sopra dello zero indicano
+  che sono arrivate nel comune più persone di quante ne sono uscite, viceversa
+  per le barre al di sotto dello zero.
+  </p>
+  <hr>
+    
+<div class="bk-root" id="01bf1c29-0e45-4f48-910a-8dd137af00a2" data-root-id="1111"></div>
+    
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"00d5ff23-40ea-442c-8b54-3f9d85968077":{"defs":[],"roots":{"references":[{"attributes":{},"id":"1116","type":"DataRange1d"},{"attributes":{},"id":"1118","type":"LinearScale"},{"attributes":{"fill_color":"rgb(45, 41, 38)","line_color":"rgb(45, 41, 38)","top":{"field":"top"},"width":{"value":6},"x":{"field":"x"}},"id":"1145","type":"VBar"},{"attributes":{},"id":"1120","type":"LinearScale"},{"attributes":{"axis_label":"Fascia Et\\u00e0","axis_label_text_font":"Work Sans","formatter":{"id":"1196"},"major_label_policy":{"id":"1197"},"ticker":{"id":"1123"}},"id":"1122","type":"LinearAxis"},{"attributes":{},"id":"1123","type":"BasicTicker"},{"attributes":{"axis":{"id":"1122"},"ticker":null},"id":"1125","type":"Grid"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1136","type":"BoxAnnotation"},{"attributes":{"axis_label":"Migranti","axis_label_text_font":"Work Sans","formatter":{"id":"1193"},"major_label_policy":{"id":"1194"},"ticker":{"id":"1127"}},"id":"1126","type":"LinearAxis"},{"attributes":{},"id":"1198","type":"UnionRenderers"},{"attributes":{"source":{"id":"1144"}},"id":"1148","type":"CDSView"},{"attributes":{},"id":"1127","type":"BasicTicker"},{"attributes":{"axis":{"id":"1126"},"dimension":1,"ticker":null},"id":"1129","type":"Grid"},{"attributes":{},"id":"1196","type":"BasicTickFormatter"},{"attributes":{"callback":null,"tooltips":[["FASCIA ETA","@x"],["MIGRANTI","@top"]]},"id":"1149","type":"HoverTool"},{"attributes":{},"id":"1130","type":"PanTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":"rgb(45, 41, 38)","line_alpha":{"value":0.1},"line_color":"rgb(45, 41, 38)","top":{"field":"top"},"width":{"value":6},"x":{"field":"x"}},"id":"1146","type":"VBar"},{"attributes":{},"id":"1197","type":"AllLabels"},{"attributes":{"data_source":{"id":"1144"},"glyph":{"id":"1145"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1146"},"view":{"id":"1148"}},"id":"1147","type":"GlyphRenderer"},{"attributes":{},"id":"1131","type":"WheelZoomTool"},{"attributes":{"data":{"top":[12,12,-9,4,23,-4,2,2,-7,-4,0],"x":[0,10,20,30,40,50,60,70,80,90,100]},"selected":{"id":"1199"},"selection_policy":{"id":"1198"}},"id":"1144","type":"ColumnDataSource"},{"attributes":{},"id":"1194","type":"AllLabels"},{"attributes":{"overlay":{"id":"1136"}},"id":"1132","type":"BoxZoomTool"},{"attributes":{},"id":"1199","type":"Selection"},{"attributes":{},"id":"1193","type":"BasicTickFormatter"},{"attributes":{},"id":"1133","type":"SaveTool"},{"attributes":{},"id":"1134","type":"ResetTool"},{"attributes":{},"id":"1135","type":"HelpTool"},{"attributes":{"below":[{"id":"1122"}],"center":[{"id":"1125"},{"id":"1129"}],"height":400,"left":[{"id":"1126"}],"renderers":[{"id":"1147"}],"title":{"id":"1112"},"toolbar":{"id":"1137"},"x_range":{"id":"1114"},"x_scale":{"id":"1118"},"y_range":{"id":"1116"},"y_scale":{"id":"1120"}},"id":"1111","subtype":"Figure","type":"Plot"},{"attributes":{"active_multi":null,"tools":[{"id":"1130"},{"id":"1131"},{"id":"1132"},{"id":"1133"},{"id":"1134"},{"id":"1135"},{"id":"1149"}]},"id":"1137","type":"Toolbar"},{"attributes":{"align":"center","text":"Bilancio Migratorio","text_font":"Work Sans","text_font_size":"21px"},"id":"1112","type":"Title"},{"attributes":{},"id":"1114","type":"DataRange1d"}],"root_ids":["1111"]},"title":"Bokeh Application","version":"2.3.1"}}';
+                var render_items = [{"docid":"00d5ff23-40ea-442c-8b54-3f9d85968077","root_ids":["1111"],"roots":{"1111":"01bf1c29-0e45-4f48-910a-8dd137af00a2"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+
+  <h3>Dettaglio Migrazioni</h3>
+  <p>
+  In questo grafico vengono rappresentrati i flussi migratori divisi per
+  immigrazione ed emigrazione e ulteriolmente divisi per genere.
+  Le barre al di sopra dello zero indicano gli immigrati, vicervesa quelle al
+  di sotto dello zero indicano gli emigrati.
+  Le barre sono divise in due colori per indicare la distribuzione per genere
+  al loro interno.
+  </p>
+  <p>
+  Passando il mouse sulle barre è possibile leggere tutti i valori per la
+  fascia d'età selezionata.
+  </p>
+  <hr>
+    
+<div class="bk-root" id="e5e1feff-1ed2-427f-bd14-daa672301197" data-root-id="1003"></div>
+    
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"6a39931c-2e74-4860-8b40-89a586857701":{"defs":[],"roots":{"references":[{"attributes":{"fields":["Nemigrati femmine"]},"id":"1075","type":"Stack"},{"attributes":{"data_source":{"id":"1002"},"glyph":{"id":"1041"},"hover_glyph":null,"muted_glyph":null,"name":"immigrati femmine","nonselection_glyph":{"id":"1042"},"view":{"id":"1044"}},"id":"1043","type":"GlyphRenderer"},{"attributes":{"fields":[]},"id":"1036","type":"Stack"},{"attributes":{"fields":["Nemigrati femmine","Nemigrati maschi"]},"id":"1076","type":"Stack"},{"attributes":{},"id":"1022","type":"PanTool"},{"attributes":{"end":100,"start":-100},"id":"1008","type":"Range1d"},{"attributes":{},"id":"1023","type":"WheelZoomTool"},{"attributes":{"source":{"id":"1002"}},"id":"1044","type":"CDSView"},{"attributes":{},"id":"1047","type":"BasicTickFormatter"},{"attributes":{"overlay":{"id":"1028"}},"id":"1024","type":"BoxZoomTool"},{"attributes":{},"id":"1010","type":"LinearScale"},{"attributes":{},"id":"1048","type":"AllLabels"},{"attributes":{"data_source":{"id":"1002"},"glyph":{"id":"1078"},"hover_glyph":null,"muted_glyph":null,"name":"Nemigrati femmine","nonselection_glyph":{"id":"1079"},"view":{"id":"1081"}},"id":"1080","type":"GlyphRenderer"},{"attributes":{},"id":"1025","type":"SaveTool"},{"attributes":{},"id":"1012","type":"LinearScale"},{"attributes":{},"id":"1050","type":"BasicTickFormatter"},{"attributes":{"bottom":{"expr":{"id":"1073"}},"fill_color":"rgb(255, 182, 193)","line_color":"rgb(255, 182, 193)","top":{"expr":{"id":"1074"}},"width":{"value":6},"x":{"field":"FasciaEta"}},"id":"1078","type":"VBar"},{"attributes":{},"id":"1026","type":"ResetTool"},{"attributes":{"source":{"id":"1002"}},"id":"1081","type":"CDSView"},{"attributes":{},"id":"1051","type":"AllLabels"},{"attributes":{"bottom":{"expr":{"id":"1073"}},"fill_alpha":{"value":0.1},"fill_color":"rgb(255, 182, 193)","line_alpha":{"value":0.1},"line_color":"rgb(255, 182, 193)","top":{"expr":{"id":"1074"}},"width":{"value":6},"x":{"field":"FasciaEta"}},"id":"1079","type":"VBar"},{"attributes":{},"id":"1027","type":"HelpTool"},{"attributes":{"label":{"value":"em. femmine"},"renderers":[{"id":"1080"}]},"id":"1092","type":"LegendItem"},{"attributes":{},"id":"1052","type":"UnionRenderers"},{"attributes":{"active_multi":null,"tools":[{"id":"1022"},{"id":"1023"},{"id":"1024"},{"id":"1025"},{"id":"1026"},{"id":"1027"},{"id":"1109"}]},"id":"1029","type":"Toolbar"},{"attributes":{},"id":"1053","type":"Selection"},{"attributes":{"label":{"value":"im. femmine"},"renderers":[{"id":"1043"}]},"id":"1056","type":"LegendItem"},{"attributes":{"below":[{"id":"1014"}],"center":[{"id":"1017"},{"id":"1021"},{"id":"1055"}],"left":[{"id":"1018"}],"renderers":[{"id":"1043"},{"id":"1060"},{"id":"1080"},{"id":"1096"}],"title":{"id":"1004"},"toolbar":{"id":"1029"},"x_range":{"id":"1006"},"x_scale":{"id":"1010"},"y_range":{"id":"1008"},"y_scale":{"id":"1012"}},"id":"1003","subtype":"Figure","type":"Plot"},{"attributes":{"axis_label":"Fascia Et\\u00e0","axis_label_text_font":"Work Sans","formatter":{"id":"1050"},"major_label_policy":{"id":"1051"},"ticker":{"id":"1015"}},"id":"1014","type":"LinearAxis"},{"attributes":{"data_source":{"id":"1002"},"glyph":{"id":"1094"},"hover_glyph":null,"muted_glyph":null,"name":"Nemigrati maschi","nonselection_glyph":{"id":"1095"},"view":{"id":"1097"}},"id":"1096","type":"GlyphRenderer"},{"attributes":{"bottom":{"expr":{"id":"1075"}},"fill_color":"rgb(173, 216, 230)","line_color":"rgb(173, 216, 230)","top":{"expr":{"id":"1076"}},"width":{"value":6},"x":{"field":"FasciaEta"}},"id":"1094","type":"VBar"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1028","type":"BoxAnnotation"},{"attributes":{"source":{"id":"1002"}},"id":"1097","type":"CDSView"},{"attributes":{},"id":"1015","type":"BasicTicker"},{"attributes":{"bottom":{"expr":{"id":"1075"}},"fill_alpha":{"value":0.1},"fill_color":"rgb(173, 216, 230)","line_alpha":{"value":0.1},"line_color":"rgb(173, 216, 230)","top":{"expr":{"id":"1076"}},"width":{"value":6},"x":{"field":"FasciaEta"}},"id":"1095","type":"VBar"},{"attributes":{"fields":["immigrati femmine"]},"id":"1038","type":"Stack"},{"attributes":{"data_source":{"id":"1002"},"glyph":{"id":"1058"},"hover_glyph":null,"muted_glyph":null,"name":"immigrati maschi","nonselection_glyph":{"id":"1059"},"view":{"id":"1061"}},"id":"1060","type":"GlyphRenderer"},{"attributes":{"label":{"value":"em. maschi"},"renderers":[{"id":"1096"}]},"id":"1108","type":"LegendItem"},{"attributes":{"fields":["immigrati femmine","immigrati maschi"]},"id":"1039","type":"Stack"},{"attributes":{"axis":{"id":"1014"},"ticker":null},"id":"1017","type":"Grid"},{"attributes":{"bottom":{"expr":{"id":"1038"}},"fill_color":"rgb(72, 159, 223)","line_color":"rgb(72, 159, 223)","top":{"expr":{"id":"1039"}},"width":{"value":6},"x":{"field":"FasciaEta"}},"id":"1058","type":"VBar"},{"attributes":{"callback":null,"tooltips":[["FASCIA ETA","@FasciaEta"],["Im. Femmine","@{immigrati femmine}"],["Im. Maschi","@{immigrati maschi}"],["Em. Femmine","@{emigrati femmine}"],["Em. Maschi","@{emigrati maschi}"]]},"id":"1109","type":"HoverTool"},{"attributes":{"axis_label":"Migranti","axis_label_text_font":"Work Sans","formatter":{"id":"1047"},"major_label_policy":{"id":"1048"},"ticker":{"id":"1019"}},"id":"1018","type":"LinearAxis"},{"attributes":{},"id":"1006","type":"DataRange1d"},{"attributes":{"items":[{"id":"1056"},{"id":"1072"},{"id":"1092"},{"id":"1108"}],"label_text_font":"Work Sans","location":"bottom_right"},"id":"1055","type":"Legend"},{"attributes":{"source":{"id":"1002"}},"id":"1061","type":"CDSView"},{"attributes":{"bottom":{"expr":{"id":"1038"}},"fill_alpha":{"value":0.1},"fill_color":"rgb(72, 159, 223)","line_alpha":{"value":0.1},"line_color":"rgb(72, 159, 223)","top":{"expr":{"id":"1039"}},"width":{"value":6},"x":{"field":"FasciaEta"}},"id":"1059","type":"VBar"},{"attributes":{"align":"center","text":"Dettaglio Migrazioni","text_font":"Work Sans","text_font_size":"21px"},"id":"1004","type":"Title"},{"attributes":{},"id":"1019","type":"BasicTicker"},{"attributes":{"label":{"value":"im. maschi"},"renderers":[{"id":"1060"}]},"id":"1072","type":"LegendItem"},{"attributes":{"bottom":{"expr":{"id":"1036"}},"fill_color":"rgb(238, 56, 49)","line_color":"rgb(238, 56, 49)","top":{"expr":{"id":"1037"}},"width":{"value":6},"x":{"field":"FasciaEta"}},"id":"1041","type":"VBar"},{"attributes":{"axis":{"id":"1018"},"dimension":1,"ticker":null},"id":"1021","type":"Grid"},{"attributes":{"fields":[]},"id":"1073","type":"Stack"},{"attributes":{"data":{"FasciaEta":[0,10,20,30,40,50,60,70,80,90,100],"Nemigrati femmine":[-18,-6,-33,-32,-18,-16,-14,-5,-6,-4,0],"Nemigrati maschi":[-12,-4,-22,-46,-17,-19,-8,-1,-3,-1,0],"bilancio":[12,12,-9,4,23,-4,2,2,-7,-4,0],"emigrati":[30,10,55,78,35,35,22,6,9,5,0],"emigrati femmine":[18,6,33,32,18,16,14,5,6,4,0],"emigrati maschi":[12,4,22,46,17,19,8,1,3,1,0],"immigrati":[42,22,46,82,58,31,24,8,2,1,0],"immigrati femmine":[18,9,20,44,32,20,13,4,2,1,0],"immigrati maschi":[24,13,26,38,26,11,11,4,0,0,0]},"selected":{"id":"1053"},"selection_policy":{"id":"1052"}},"id":"1002","type":"ColumnDataSource"},{"attributes":{"fields":["Nemigrati femmine"]},"id":"1074","type":"Stack"},{"attributes":{"bottom":{"expr":{"id":"1036"}},"fill_alpha":{"value":0.1},"fill_color":"rgb(238, 56, 49)","line_alpha":{"value":0.1},"line_color":"rgb(238, 56, 49)","top":{"expr":{"id":"1037"}},"width":{"value":6},"x":{"field":"FasciaEta"}},"id":"1042","type":"VBar"},{"attributes":{"fields":["immigrati femmine"]},"id":"1037","type":"Stack"}],"root_ids":["1003"]},"title":"Bokeh Application","version":"2.3.1"}}';
+                var render_items = [{"docid":"6a39931c-2e74-4860-8b40-89a586857701","root_ids":["1003"],"roots":{"1003":"e5e1feff-1ed2-427f-bd14-daa672301197"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+  <hr>
+</main>
+    </body>
+
+</html>
+
