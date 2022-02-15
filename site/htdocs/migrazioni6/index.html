@@ -1,0 +1,139 @@
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Migrazioni Tra 6 Comuni VOID</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
+       <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.1.min.js" integrity="sha384-YF85VygJKMVnHE+lLv2AM93Vbstr0yo2TbIu5v8se5Rq3UQAUmcuh4aaJwNlpKwa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.3.1.min.js" integrity="sha384-KKuas3gevv3PvrlkyCMzffFeaMq5we/a2QsP5AUoS3mJ0jmaCL7jirFJN3GoE/lM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+    <style>
+      .bg-void {
+        background-color: rgb(35, 31, 30);
+      }
+    h1,h2,h3 {
+        text-align: center;
+        color: rgb(35, 31, 30);
+        font-family: "Work Sans";
+    }
+    p {
+        text-align:justify;
+        color: rgb(35, 31, 30);
+        font-family: "Work Sans";
+    }
+    </style>
+  </head>
+  
+    <body>
+<header>
+
+  <div class="navbar navbar-dark bg-void shadow-sm">
+    <div class="container ">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../images/logo-void-200.jpeg" alt="VOID">
+        </a>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="mx-auto" style="width: 50%">
+      <h1>Migrazioni Tra 6 Comuni VOID</h1>
+      <h2>Dal 03 Gennaio 2000 al 18 Dicembre 2020</h2>
+      <p>
+      In questa pagina vengono presentati i dati sui flussi migratori
+      tra i comuni di
+      San Donà di Piave, Jesolo, Musile di Piave, Noventa di Piave,
+      San Stino di Livenza e Portogruaro.
+      </p>
+      <p>
+      I dati sono stati selezionati dal 3 Gennaio 2000 al 18 Dicembre 2020
+      e aggregati per i soli comuni citati, partecipanti al progetto VOID.
+      I dataset attualmente disponibili permettono di ricostruire i flussi
+      incrociando tra loro i registri delle immigrazioni.
+      </p>
+      <p>
+      L'analisi qualitativa dei dati può essere scaricata in PDF.
+      </p>
+</div>
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+          <a href="InfograficaVOID_20.pdf" class="btn btn-secondary my-2">PDF INFOGRAFICA</a>
+        </p>
+      </div>
+    </div>
+  <section>
+
+  <h3>Dettaglio Migrazioni</h3>
+  <hr>
+  <p>La mappa rappresenta i flussi dal Comune in ordinata (verticale)
+  a quello in ascissa (orizzontale). 
+  I colori usati vanno dal verde, poche persone, al rosso, molte.
+  La scala dei colori non è lineare per poter apprezzare le differenze
+  tra i flussi minori, in quanto le migrazioni che coinvolgono il Comune
+  di San Donà di Piave sono di almeno un ordine di grandezza maggiori rispetto
+  alle altre.</p>
+  <p>Le celle grigie riguardano i movimenti all'interno dello stesso Comune e
+  non sono stati presi in considerazione.</p>
+  <p>Passando il mouse sopra la cella colorata è possibile avere il dettaglio
+  e il numero esatto di persone conteggiate.</p>
+
+  
+<div class="bk-root" id="4cb930c5-84d2-4269-8047-25aa17c39c15" data-root-id="1003"></div>
+
+  <h3>Dataset</h3>
+  <hr>
+  <p>I dati utilizzati per realizzare questa pagina sono disponibili
+  disaggregati sul portale Open Data della Regione Veneto.</p>
+  <a href="https://dati.veneto.it/content/innovationlab-void-registro-delle-immigrazioni-nel-comune-di-jesolo-dal-1-gennaio-2000" class="btn btn-secondary my-2">Jesolo</a>
+  <a href="https://dati.veneto.it/content/innovationlab-void-registro-apr-musile-di-piave-dal-1-gennaio-2000" class="btn btn-secondary my-2">Musile di Piave</a>
+  <a href="https://dati.veneto.it/content/innovationlab-void-registro-apr-portogruaro-dal-1-gennaio-2000" class="btn btn-secondary my-2">Portogruaro</a>
+  <a href="https://dati.veneto.it/content/innovationlab-void-registro-apr-san-don%C3%A0-di-piave-dal-1-gennaio-2000-0" class="btn btn-secondary my-2">San Donà di Piave</a>
+  <a href="https://dati.veneto.it/content/innovationlab-void-registro-apr-san-stino-di-livenza-dal-1-gennaio-2000" class="btn btn-secondary my-2">San Stino di Livenza</a>
+  <a href="https://dati.veneto.it/content/innovationlab-void-registro-delle-immigrazioni-nel-comune-di-noventa-di-piave-dal-01012000" class="btn btn-secondary my-2">Noventa di Piave</a>
+
+  
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"fa948ae8-a5d7-4156-8d87-f8dd28cb5c50":{"defs":[],"roots":{"references":[{"attributes":{"align":"center","text":"Migrazioni tra Comuni VOID (2000-2020)","text_font":"Work Sans","text_font_size":"21px"},"id":"1004","type":"Title"},{"attributes":{"data":{"end":["JESOLO","MUSILE DI PIAVE","NOVENTA DI PIAVE","PORTOGRUARO","SAN DON\\u00c0 DI PIAVE","SAN STINO DI LIVENZA","JESOLO","MUSILE DI PIAVE","NOVENTA DI PIAVE","PORTOGRUARO","SAN DON\\u00c0 DI PIAVE","SAN STINO DI LIVENZA","JESOLO","MUSILE DI PIAVE","NOVENTA DI PIAVE","PORTOGRUARO","SAN DON\\u00c0 DI PIAVE","SAN STINO DI LIVENZA","JESOLO","MUSILE DI PIAVE","NOVENTA DI PIAVE","PORTOGRUARO","SAN DON\\u00c0 DI PIAVE","SAN STINO DI LIVENZA","JESOLO","MUSILE DI PIAVE","NOVENTA DI PIAVE","PORTOGRUARO","SAN DON\\u00c0 DI PIAVE","SAN STINO DI LIVENZA","JESOLO","MUSILE DI PIAVE","NOVENTA DI PIAVE","PORTOGRUARO","SAN DON\\u00c0 DI PIAVE","SAN STINO DI LIVENZA"],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35],"start":["JESOLO","JESOLO","JESOLO","JESOLO","JESOLO","JESOLO","MUSILE DI PIAVE","MUSILE DI PIAVE","MUSILE DI PIAVE","MUSILE DI PIAVE","MUSILE DI PIAVE","MUSILE DI PIAVE","NOVENTA DI PIAVE","NOVENTA DI PIAVE","NOVENTA DI PIAVE","NOVENTA DI PIAVE","NOVENTA DI PIAVE","NOVENTA DI PIAVE","PORTOGRUARO","PORTOGRUARO","PORTOGRUARO","PORTOGRUARO","PORTOGRUARO","PORTOGRUARO","SAN DON\\u00c0 DI PIAVE","SAN DON\\u00c0 DI PIAVE","SAN DON\\u00c0 DI PIAVE","SAN DON\\u00c0 DI PIAVE","SAN DON\\u00c0 DI PIAVE","SAN DON\\u00c0 DI PIAVE","SAN STINO DI LIVENZA","SAN STINO DI LIVENZA","SAN STINO DI LIVENZA","SAN STINO DI LIVENZA","SAN STINO DI LIVENZA","SAN STINO DI LIVENZA"],"weight":[0,242,135,63,1032,33,185,0,280,49,1946,37,67,154,0,20,1026,20,26,16,27,0,95,143,650,1222,1808,206,0,153,40,49,19,116,113,0]},"selected":{"id":"1043"},"selection_policy":{"id":"1042"}},"id":"1025","type":"ColumnDataSource"},{"attributes":{},"id":"1020","type":"SaveTool"},{"attributes":{"active_multi":null,"tools":[{"id":"1020"},{"id":"1021"}]},"id":"1022","type":"Toolbar"},{"attributes":{"below":[{"id":"1014"}],"center":[{"id":"1016"},{"id":"1019"}],"left":[{"id":"1017"}],"renderers":[{"id":"1029"}],"right":[{"id":"1033"}],"title":{"id":"1004"},"toolbar":{"id":"1022"},"width":800,"x_range":{"id":"1006"},"x_scale":{"id":"1010"},"y_range":{"id":"1008"},"y_scale":{"id":"1012"}},"id":"1003","subtype":"Figure","type":"Plot"},{"attributes":{"data_source":{"id":"1025"},"glyph":{"id":"1027"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1028"},"view":{"id":"1030"}},"id":"1029","type":"GlyphRenderer"},{"attributes":{},"id":"1037","type":"AllLabels"},{"attributes":{"color_mapper":{"id":"1002"},"formatter":{"id":"1032"},"label_standoff":6,"major_label_policy":{"id":"1038"},"ticker":{"id":"1031"}},"id":"1033","type":"ColorBar"},{"attributes":{"axis":{"id":"1014"},"ticker":null},"id":"1016","type":"Grid"},{"attributes":{},"id":"1010","type":"CategoricalScale"},{"attributes":{},"id":"1043","type":"Selection"},{"attributes":{"fill_color":{"field":"weight","transform":{"id":"1002"}},"height":{"value":1},"width":{"value":1},"x":{"field":"end"},"y":{"field":"start"}},"id":"1027","type":"Rect"},{"attributes":{},"id":"1031","type":"LogTicker"},{"attributes":{},"id":"1035","type":"CategoricalTickFormatter"},{"attributes":{"factors":["JESOLO","MUSILE DI PIAVE","NOVENTA DI PIAVE","PORTOGRUARO","SAN DON\\u00c0 DI PIAVE","SAN STINO DI LIVENZA"]},"id":"1006","type":"FactorRange"},{"attributes":{},"id":"1018","type":"CategoricalTicker"},{"attributes":{"axis":{"id":"1017"},"dimension":1,"ticker":null},"id":"1019","type":"Grid"},{"attributes":{},"id":"1041","type":"AllLabels"},{"attributes":{"axis_label_text_font":"Work Sans","formatter":{"id":"1035"},"major_label_orientation":1.0471975511965976,"major_label_policy":{"id":"1037"},"ticker":{"id":"1015"}},"id":"1014","type":"CategoricalAxis"},{"attributes":{},"id":"1039","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1012","type":"CategoricalScale"},{"attributes":{"factors":["JESOLO","MUSILE DI PIAVE","NOVENTA DI PIAVE","PORTOGRUARO","SAN DON\\u00c0 DI PIAVE","SAN STINO DI LIVENZA"]},"id":"1008","type":"FactorRange"},{"attributes":{},"id":"1042","type":"UnionRenderers"},{"attributes":{"callback":null,"tooltips":[["DA","@start"],["A","@end"],["PERSONE","@weight"]]},"id":"1021","type":"HoverTool"},{"attributes":{},"id":"1015","type":"CategoricalTicker"},{"attributes":{"high":1946,"low":1,"low_color":"darkgray","palette":["#1a9850","#91cf60","#d9ef8b","#fee08b","#fc8d59","#d73027"]},"id":"1002","type":"LogColorMapper"},{"attributes":{"source":{"id":"1025"}},"id":"1030","type":"CDSView"},{"attributes":{"format":"%d"},"id":"1032","type":"PrintfTickFormatter"},{"attributes":{},"id":"1038","type":"NoOverlap"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"weight","transform":{"id":"1002"}},"height":{"value":1},"line_alpha":{"value":0.1},"width":{"value":1},"x":{"field":"end"},"y":{"field":"start"}},"id":"1028","type":"Rect"},{"attributes":{"axis_label_text_font":"Work Sans","formatter":{"id":"1039"},"major_label_policy":{"id":"1041"},"ticker":{"id":"1018"}},"id":"1017","type":"CategoricalAxis"}],"root_ids":["1003"]},"title":"Bokeh Application","version":"2.3.1"}}';
+                var render_items = [{"docid":"fa948ae8-a5d7-4156-8d87-f8dd28cb5c50","root_ids":["1003"],"roots":{"1003":"4cb930c5-84d2-4269-8047-25aa17c39c15"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+</main>
+    </body>
+
+</html>
+
